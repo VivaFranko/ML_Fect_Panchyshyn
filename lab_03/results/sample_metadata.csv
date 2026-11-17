@@ -1,0 +1,867 @@
+text_id,label,topic_hint,generation_method
+TXT_0001,human,gene editing ethics,template+human_variation
+TXT_0002,human,election integrity concerns,template+human_variation
+TXT_0003,ai,climate change adaptation strategies,style_simulation
+TXT_0004,human,genomic research breakthroughs,template+human_variation
+TXT_0005,ai,student debt crisis,style_simulation
+TXT_0006,ai,biodiversity loss,style_simulation
+TXT_0007,human,supply chain disruptions,template+human_variation
+TXT_0008,human,autonomous vehicle safety,template+human_variation
+TXT_0009,human,public transit investment,template+human_variation
+TXT_0010,ai,climate change adaptation strategies,style_simulation
+TXT_0011,human,space exploration milestones,template+human_variation
+TXT_0012,ai,gig economy labor rights,style_simulation
+TXT_0013,ai,urban housing shortages,style_simulation
+TXT_0014,human,urban housing shortages,template+human_variation
+TXT_0016,human,remote work productivity,template+human_variation
+TXT_0017,human,cryptocurrency market volatility,template+human_variation
+TXT_0018,human,autonomous vehicle safety,template+human_variation
+TXT_0019,ai,genomic research breakthroughs,style_simulation
+TXT_0020,human,social media misinformation,template+human_variation
+TXT_0021,human,algorithmic bias in hiring,template+human_variation
+TXT_0022,ai,supply chain disruptions,style_simulation
+TXT_0023,human,autonomous vehicle safety,template+human_variation
+TXT_0024,ai,nuclear energy policy,style_simulation
+TXT_0025,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0026,human,education reform debates,template+human_variation
+TXT_0027,ai,genomic research breakthroughs,style_simulation
+TXT_0028,human,climate change adaptation strategies,template+human_variation
+TXT_0029,human,economic inequality trends,template+human_variation
+TXT_0030,human,food security in developing nations,template+human_variation
+TXT_0031,human,mental health awareness campaigns,template+human_variation
+TXT_0032,human,data privacy legislation,template+human_variation
+TXT_0033,human,public transit investment,template+human_variation
+TXT_0034,human,remote work productivity,template+human_variation
+TXT_0035,ai,remote work productivity,style_simulation
+TXT_0036,human,vaccine distribution challenges,template+human_variation
+TXT_0037,ai,renewable energy adoption,style_simulation
+TXT_0038,ai,algorithmic bias in hiring,style_simulation
+TXT_0039,ai,gig economy labor rights,style_simulation
+TXT_0040,human,aging population challenges,template+human_variation
+TXT_0041,human,biodiversity loss,template+human_variation
+TXT_0042,human,urban housing shortages,template+human_variation
+TXT_0043,human,artificial intelligence regulation,template+human_variation
+TXT_0044,human,artificial intelligence regulation,template+human_variation
+TXT_0045,ai,gig economy labor rights,style_simulation
+TXT_0046,human,biodiversity loss,template+human_variation
+TXT_0047,human,climate change adaptation strategies,template+human_variation
+TXT_0048,human,antibiotic resistance,template+human_variation
+TXT_0049,human,vaccine distribution challenges,template+human_variation
+TXT_0050,ai,artificial intelligence regulation,style_simulation
+TXT_0051,ai,election integrity concerns,style_simulation
+TXT_0052,human,supply chain disruptions,template+human_variation
+TXT_0053,ai,autonomous vehicle safety,style_simulation
+TXT_0054,human,vaccine distribution challenges,template+human_variation
+TXT_0055,human,urban housing shortages,template+human_variation
+TXT_0056,human,data privacy legislation,template+human_variation
+TXT_0057,ai,digital divide in rural areas,style_simulation
+TXT_0058,human,supply chain disruptions,template+human_variation
+TXT_0059,ai,urban housing shortages,style_simulation
+TXT_0060,human,election integrity concerns,template+human_variation
+TXT_0061,ai,genomic research breakthroughs,style_simulation
+TXT_0062,human,gene editing ethics,template+human_variation
+TXT_0063,ai,genomic research breakthroughs,style_simulation
+TXT_0065,human,remote work productivity,template+human_variation
+TXT_0066,human,genomic research breakthroughs,template+human_variation
+TXT_0067,human,supply chain disruptions,template+human_variation
+TXT_0068,ai,renewable energy adoption,style_simulation
+TXT_0069,human,election integrity concerns,template+human_variation
+TXT_0070,ai,artificial intelligence regulation,style_simulation
+TXT_0071,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0072,human,data privacy legislation,template+human_variation
+TXT_0073,ai,algorithmic bias in hiring,style_simulation
+TXT_0074,ai,cryptocurrency market volatility,style_simulation
+TXT_0075,human,food security in developing nations,template+human_variation
+TXT_0076,human,biodiversity loss,template+human_variation
+TXT_0077,ai,economic inequality trends,style_simulation
+TXT_0078,human,genomic research breakthroughs,template+human_variation
+TXT_0079,human,election integrity concerns,template+human_variation
+TXT_0080,human,space exploration milestones,template+human_variation
+TXT_0081,human,economic inequality trends,template+human_variation
+TXT_0082,human,public transit investment,template+human_variation
+TXT_0083,ai,antibiotic resistance,style_simulation
+TXT_0084,ai,space exploration milestones,style_simulation
+TXT_0085,human,artificial intelligence regulation,template+human_variation
+TXT_0086,ai,supply chain disruptions,style_simulation
+TXT_0087,human,vaccine distribution challenges,template+human_variation
+TXT_0089,human,water scarcity,template+human_variation
+TXT_0091,ai,remote work productivity,style_simulation
+TXT_0092,human,student debt crisis,template+human_variation
+TXT_0093,human,urban housing shortages,template+human_variation
+TXT_0096,human,water scarcity,template+human_variation
+TXT_0097,human,student debt crisis,template+human_variation
+TXT_0098,ai,biodiversity loss,style_simulation
+TXT_0099,ai,aging population challenges,style_simulation
+TXT_0100,human,space exploration milestones,template+human_variation
+TXT_0101,human,nuclear energy policy,template+human_variation
+TXT_0102,human,election integrity concerns,template+human_variation
+TXT_0103,human,cryptocurrency market volatility,template+human_variation
+TXT_0104,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0107,human,aging population challenges,template+human_variation
+TXT_0108,human,renewable energy adoption,template+human_variation
+TXT_0109,human,gene editing ethics,template+human_variation
+TXT_0110,human,biodiversity loss,template+human_variation
+TXT_0112,ai,data privacy legislation,style_simulation
+TXT_0113,ai,supply chain disruptions,style_simulation
+TXT_0114,human,aging population challenges,template+human_variation
+TXT_0115,human,aging population challenges,template+human_variation
+TXT_0116,human,vaccine distribution challenges,template+human_variation
+TXT_0117,ai,remote work productivity,style_simulation
+TXT_0118,human,water scarcity,template+human_variation
+TXT_0119,human,education reform debates,template+human_variation
+TXT_0120,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0121,human,nuclear energy policy,template+human_variation
+TXT_0122,ai,space exploration milestones,style_simulation
+TXT_0123,ai,artificial intelligence regulation,style_simulation
+TXT_0125,human,climate change adaptation strategies,template+human_variation
+TXT_0126,ai,artificial intelligence regulation,style_simulation
+TXT_0127,human,genomic research breakthroughs,template+human_variation
+TXT_0129,ai,data privacy legislation,style_simulation
+TXT_0130,human,data privacy legislation,template+human_variation
+TXT_0131,human,aging population challenges,template+human_variation
+TXT_0132,human,public transit investment,template+human_variation
+TXT_0133,human,artificial intelligence regulation,template+human_variation
+TXT_0134,human,nuclear energy policy,template+human_variation
+TXT_0135,human,mental health awareness campaigns,template+human_variation
+TXT_0136,ai,antibiotic resistance,style_simulation
+TXT_0138,human,supply chain disruptions,template+human_variation
+TXT_0140,ai,student debt crisis,style_simulation
+TXT_0141,ai,algorithmic bias in hiring,style_simulation
+TXT_0142,human,education reform debates,template+human_variation
+TXT_0143,human,public transit investment,template+human_variation
+TXT_0144,human,education reform debates,template+human_variation
+TXT_0145,ai,education reform debates,style_simulation
+TXT_0146,human,gig economy labor rights,template+human_variation
+TXT_0147,human,digital divide in rural areas,template+human_variation
+TXT_0148,ai,social media misinformation,style_simulation
+TXT_0149,human,gene editing ethics,template+human_variation
+TXT_0150,human,data privacy legislation,template+human_variation
+TXT_0151,human,renewable energy adoption,template+human_variation
+TXT_0152,human,renewable energy adoption,template+human_variation
+TXT_0153,human,biodiversity loss,template+human_variation
+TXT_0154,ai,renewable energy adoption,style_simulation
+TXT_0155,human,urban housing shortages,template+human_variation
+TXT_0156,human,education reform debates,template+human_variation
+TXT_0157,human,antibiotic resistance,template+human_variation
+TXT_0158,human,economic inequality trends,template+human_variation
+TXT_0159,human,data privacy legislation,template+human_variation
+TXT_0160,ai,antibiotic resistance,style_simulation
+TXT_0161,human,vaccine distribution challenges,template+human_variation
+TXT_0162,human,gig economy labor rights,template+human_variation
+TXT_0163,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0164,ai,remote work productivity,style_simulation
+TXT_0165,human,economic inequality trends,template+human_variation
+TXT_0166,ai,remote work productivity,style_simulation
+TXT_0167,human,space exploration milestones,template+human_variation
+TXT_0168,ai,remote work productivity,style_simulation
+TXT_0169,human,remote work productivity,template+human_variation
+TXT_0171,ai,biodiversity loss,style_simulation
+TXT_0172,human,social media misinformation,template+human_variation
+TXT_0173,human,education reform debates,template+human_variation
+TXT_0174,human,remote work productivity,template+human_variation
+TXT_0175,human,mental health awareness campaigns,template+human_variation
+TXT_0176,ai,vaccine distribution challenges,style_simulation
+TXT_0178,ai,space exploration milestones,style_simulation
+TXT_0179,human,artificial intelligence regulation,template+human_variation
+TXT_0181,ai,mental health awareness campaigns,style_simulation
+TXT_0183,human,gene editing ethics,template+human_variation
+TXT_0184,ai,artificial intelligence regulation,style_simulation
+TXT_0185,human,algorithmic bias in hiring,template+human_variation
+TXT_0186,human,renewable energy adoption,template+human_variation
+TXT_0188,ai,renewable energy adoption,style_simulation
+TXT_0189,ai,gene editing ethics,style_simulation
+TXT_0190,ai,data privacy legislation,style_simulation
+TXT_0191,human,mental health awareness campaigns,template+human_variation
+TXT_0193,ai,climate change adaptation strategies,style_simulation
+TXT_0195,human,food security in developing nations,template+human_variation
+TXT_0196,human,cryptocurrency market volatility,template+human_variation
+TXT_0197,ai,social media misinformation,style_simulation
+TXT_0199,human,artificial intelligence regulation,template+human_variation
+TXT_0200,ai,algorithmic bias in hiring,style_simulation
+TXT_0201,human,autonomous vehicle safety,template+human_variation
+TXT_0202,human,education reform debates,template+human_variation
+TXT_0203,human,supply chain disruptions,template+human_variation
+TXT_0205,human,renewable energy adoption,template+human_variation
+TXT_0206,human,public transit investment,template+human_variation
+TXT_0208,ai,vaccine distribution challenges,style_simulation
+TXT_0210,human,algorithmic bias in hiring,template+human_variation
+TXT_0211,human,social media misinformation,template+human_variation
+TXT_0214,human,genomic research breakthroughs,template+human_variation
+TXT_0215,human,space exploration milestones,template+human_variation
+TXT_0217,ai,economic inequality trends,style_simulation
+TXT_0218,human,economic inequality trends,template+human_variation
+TXT_0219,human,algorithmic bias in hiring,template+human_variation
+TXT_0220,ai,autonomous vehicle safety,style_simulation
+TXT_0221,human,cryptocurrency market volatility,template+human_variation
+TXT_0222,human,gene editing ethics,template+human_variation
+TXT_0223,human,space exploration milestones,template+human_variation
+TXT_0225,human,gig economy labor rights,template+human_variation
+TXT_0227,human,biodiversity loss,template+human_variation
+TXT_0228,human,climate change adaptation strategies,template+human_variation
+TXT_0229,ai,nuclear energy policy,style_simulation
+TXT_0230,human,genomic research breakthroughs,template+human_variation
+TXT_0233,human,climate change adaptation strategies,template+human_variation
+TXT_0234,ai,gig economy labor rights,style_simulation
+TXT_0235,human,education reform debates,template+human_variation
+TXT_0236,human,algorithmic bias in hiring,template+human_variation
+TXT_0237,ai,aging population challenges,style_simulation
+TXT_0238,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0239,ai,water scarcity,style_simulation
+TXT_0240,human,gene editing ethics,template+human_variation
+TXT_0241,human,vaccine distribution challenges,template+human_variation
+TXT_0243,human,mental health awareness campaigns,template+human_variation
+TXT_0245,ai,supply chain disruptions,style_simulation
+TXT_0248,human,autonomous vehicle safety,template+human_variation
+TXT_0250,ai,food security in developing nations,style_simulation
+TXT_0251,ai,antibiotic resistance,style_simulation
+TXT_0252,human,autonomous vehicle safety,template+human_variation
+TXT_0253,ai,public transit investment,style_simulation
+TXT_0254,human,water scarcity,template+human_variation
+TXT_0257,human,aging population challenges,template+human_variation
+TXT_0259,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0260,ai,aging population challenges,style_simulation
+TXT_0261,human,data privacy legislation,template+human_variation
+TXT_0262,human,supply chain disruptions,template+human_variation
+TXT_0263,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0264,ai,gene editing ethics,style_simulation
+TXT_0265,ai,education reform debates,style_simulation
+TXT_0266,ai,biodiversity loss,style_simulation
+TXT_0267,human,space exploration milestones,template+human_variation
+TXT_0268,human,gene editing ethics,template+human_variation
+TXT_0270,ai,climate change adaptation strategies,style_simulation
+TXT_0271,ai,cryptocurrency market volatility,style_simulation
+TXT_0273,human,mental health awareness campaigns,template+human_variation
+TXT_0274,ai,cryptocurrency market volatility,style_simulation
+TXT_0275,human,election integrity concerns,template+human_variation
+TXT_0277,human,autonomous vehicle safety,template+human_variation
+TXT_0278,human,autonomous vehicle safety,template+human_variation
+TXT_0279,ai,biodiversity loss,style_simulation
+TXT_0280,human,education reform debates,template+human_variation
+TXT_0281,human,algorithmic bias in hiring,template+human_variation
+TXT_0282,ai,vaccine distribution challenges,style_simulation
+TXT_0283,human,biodiversity loss,template+human_variation
+TXT_0284,ai,urban housing shortages,style_simulation
+TXT_0286,human,gene editing ethics,template+human_variation
+TXT_0287,human,climate change adaptation strategies,template+human_variation
+TXT_0288,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0290,human,autonomous vehicle safety,template+human_variation
+TXT_0291,ai,nuclear energy policy,style_simulation
+TXT_0292,ai,data privacy legislation,style_simulation
+TXT_0293,ai,social media misinformation,style_simulation
+TXT_0294,ai,digital divide in rural areas,style_simulation
+TXT_0295,human,water scarcity,template+human_variation
+TXT_0298,human,mental health awareness campaigns,template+human_variation
+TXT_0301,human,digital divide in rural areas,template+human_variation
+TXT_0302,human,supply chain disruptions,template+human_variation
+TXT_0304,ai,nuclear energy policy,style_simulation
+TXT_0305,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0306,human,antibiotic resistance,template+human_variation
+TXT_0307,ai,economic inequality trends,style_simulation
+TXT_0308,ai,aging population challenges,style_simulation
+TXT_0310,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0311,ai,genomic research breakthroughs,style_simulation
+TXT_0312,ai,cryptocurrency market volatility,style_simulation
+TXT_0313,ai,economic inequality trends,style_simulation
+TXT_0314,human,remote work productivity,template+human_variation
+TXT_0315,ai,supply chain disruptions,style_simulation
+TXT_0316,human,genomic research breakthroughs,template+human_variation
+TXT_0317,ai,biodiversity loss,style_simulation
+TXT_0318,ai,data privacy legislation,style_simulation
+TXT_0319,human,data privacy legislation,template+human_variation
+TXT_0320,ai,election integrity concerns,style_simulation
+TXT_0321,human,mental health awareness campaigns,template+human_variation
+TXT_0322,human,aging population challenges,template+human_variation
+TXT_0323,human,mental health awareness campaigns,template+human_variation
+TXT_0326,human,renewable energy adoption,template+human_variation
+TXT_0328,human,social media misinformation,template+human_variation
+TXT_0329,ai,social media misinformation,style_simulation
+TXT_0330,human,gene editing ethics,template+human_variation
+TXT_0333,ai,space exploration milestones,style_simulation
+TXT_0334,human,urban housing shortages,template+human_variation
+TXT_0338,human,space exploration milestones,template+human_variation
+TXT_0339,ai,water scarcity,style_simulation
+TXT_0340,human,vaccine distribution challenges,template+human_variation
+TXT_0341,ai,biodiversity loss,style_simulation
+TXT_0342,human,education reform debates,template+human_variation
+TXT_0343,human,cryptocurrency market volatility,template+human_variation
+TXT_0344,human,mental health awareness campaigns,template+human_variation
+TXT_0345,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0346,ai,urban housing shortages,style_simulation
+TXT_0347,human,social media misinformation,template+human_variation
+TXT_0348,human,genomic research breakthroughs,template+human_variation
+TXT_0349,ai,data privacy legislation,style_simulation
+TXT_0350,human,gene editing ethics,template+human_variation
+TXT_0352,human,election integrity concerns,template+human_variation
+TXT_0353,ai,digital divide in rural areas,style_simulation
+TXT_0354,ai,aging population challenges,style_simulation
+TXT_0355,human,renewable energy adoption,template+human_variation
+TXT_0356,human,aging population challenges,template+human_variation
+TXT_0357,human,data privacy legislation,template+human_variation
+TXT_0359,ai,algorithmic bias in hiring,style_simulation
+TXT_0360,ai,space exploration milestones,style_simulation
+TXT_0361,human,food security in developing nations,template+human_variation
+TXT_0362,human,antibiotic resistance,template+human_variation
+TXT_0363,human,election integrity concerns,template+human_variation
+TXT_0364,human,economic inequality trends,template+human_variation
+TXT_0366,human,algorithmic bias in hiring,template+human_variation
+TXT_0368,human,supply chain disruptions,template+human_variation
+TXT_0369,ai,mental health awareness campaigns,style_simulation
+TXT_0370,human,food security in developing nations,template+human_variation
+TXT_0371,ai,climate change adaptation strategies,style_simulation
+TXT_0373,human,water scarcity,template+human_variation
+TXT_0375,ai,gig economy labor rights,style_simulation
+TXT_0376,ai,biodiversity loss,style_simulation
+TXT_0377,human,nuclear energy policy,template+human_variation
+TXT_0379,human,student debt crisis,template+human_variation
+TXT_0383,human,antibiotic resistance,template+human_variation
+TXT_0384,human,public transit investment,template+human_variation
+TXT_0385,ai,renewable energy adoption,style_simulation
+TXT_0386,human,gig economy labor rights,template+human_variation
+TXT_0387,human,economic inequality trends,template+human_variation
+TXT_0388,ai,urban housing shortages,style_simulation
+TXT_0389,human,gig economy labor rights,template+human_variation
+TXT_0391,human,space exploration milestones,template+human_variation
+TXT_0392,ai,gig economy labor rights,style_simulation
+TXT_0394,human,urban housing shortages,template+human_variation
+TXT_0395,human,election integrity concerns,template+human_variation
+TXT_0396,human,genomic research breakthroughs,template+human_variation
+TXT_0397,ai,climate change adaptation strategies,style_simulation
+TXT_0399,human,gig economy labor rights,template+human_variation
+TXT_0402,human,artificial intelligence regulation,template+human_variation
+TXT_0403,human,mental health awareness campaigns,template+human_variation
+TXT_0405,human,digital divide in rural areas,template+human_variation
+TXT_0406,ai,space exploration milestones,style_simulation
+TXT_0408,human,public transit investment,template+human_variation
+TXT_0410,ai,gene editing ethics,style_simulation
+TXT_0411,human,biodiversity loss,template+human_variation
+TXT_0414,human,election integrity concerns,template+human_variation
+TXT_0415,human,renewable energy adoption,template+human_variation
+TXT_0416,ai,artificial intelligence regulation,style_simulation
+TXT_0418,human,supply chain disruptions,template+human_variation
+TXT_0421,human,climate change adaptation strategies,template+human_variation
+TXT_0422,human,renewable energy adoption,template+human_variation
+TXT_0423,ai,urban housing shortages,style_simulation
+TXT_0424,human,supply chain disruptions,template+human_variation
+TXT_0425,ai,education reform debates,style_simulation
+TXT_0427,ai,gig economy labor rights,style_simulation
+TXT_0429,ai,antibiotic resistance,style_simulation
+TXT_0430,ai,water scarcity,style_simulation
+TXT_0432,ai,economic inequality trends,style_simulation
+TXT_0433,ai,supply chain disruptions,style_simulation
+TXT_0435,human,artificial intelligence regulation,template+human_variation
+TXT_0436,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0437,ai,antibiotic resistance,style_simulation
+TXT_0439,human,urban housing shortages,template+human_variation
+TXT_0440,ai,urban housing shortages,style_simulation
+TXT_0441,human,urban housing shortages,template+human_variation
+TXT_0442,human,social media misinformation,template+human_variation
+TXT_0443,ai,food security in developing nations,style_simulation
+TXT_0444,human,digital divide in rural areas,template+human_variation
+TXT_0445,ai,social media misinformation,style_simulation
+TXT_0447,human,autonomous vehicle safety,template+human_variation
+TXT_0448,ai,student debt crisis,style_simulation
+TXT_0449,human,vaccine distribution challenges,template+human_variation
+TXT_0451,human,climate change adaptation strategies,template+human_variation
+TXT_0456,ai,algorithmic bias in hiring,style_simulation
+TXT_0458,human,data privacy legislation,template+human_variation
+TXT_0460,human,antibiotic resistance,template+human_variation
+TXT_0463,human,algorithmic bias in hiring,template+human_variation
+TXT_0464,ai,nuclear energy policy,style_simulation
+TXT_0468,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0469,human,space exploration milestones,template+human_variation
+TXT_0472,human,student debt crisis,template+human_variation
+TXT_0474,ai,cryptocurrency market volatility,style_simulation
+TXT_0480,ai,gig economy labor rights,style_simulation
+TXT_0482,ai,food security in developing nations,style_simulation
+TXT_0485,ai,public transit investment,style_simulation
+TXT_0486,ai,nuclear energy policy,style_simulation
+TXT_0488,human,mental health awareness campaigns,template+human_variation
+TXT_0489,human,cryptocurrency market volatility,template+human_variation
+TXT_0491,ai,autonomous vehicle safety,style_simulation
+TXT_0492,human,digital divide in rural areas,template+human_variation
+TXT_0494,human,data privacy legislation,template+human_variation
+TXT_0499,ai,education reform debates,style_simulation
+TXT_0500,human,social media misinformation,template+human_variation
+TXT_0505,ai,aging population challenges,style_simulation
+TXT_0506,human,genomic research breakthroughs,template+human_variation
+TXT_0509,human,artificial intelligence regulation,template+human_variation
+TXT_0510,ai,remote work productivity,style_simulation
+TXT_0512,human,algorithmic bias in hiring,template+human_variation
+TXT_0513,human,economic inequality trends,template+human_variation
+TXT_0515,human,food security in developing nations,template+human_variation
+TXT_0516,ai,digital divide in rural areas,style_simulation
+TXT_0517,human,education reform debates,template+human_variation
+TXT_0518,human,cryptocurrency market volatility,template+human_variation
+TXT_0519,ai,public transit investment,style_simulation
+TXT_0520,ai,cryptocurrency market volatility,style_simulation
+TXT_0523,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0525,human,mental health awareness campaigns,template+human_variation
+TXT_0527,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0529,human,algorithmic bias in hiring,template+human_variation
+TXT_0533,human,space exploration milestones,template+human_variation
+TXT_0534,human,student debt crisis,template+human_variation
+TXT_0535,human,renewable energy adoption,template+human_variation
+TXT_0536,human,antibiotic resistance,template+human_variation
+TXT_0538,human,data privacy legislation,template+human_variation
+TXT_0539,human,social media misinformation,template+human_variation
+TXT_0541,human,gene editing ethics,template+human_variation
+TXT_0542,ai,artificial intelligence regulation,style_simulation
+TXT_0543,ai,gene editing ethics,style_simulation
+TXT_0544,ai,climate change adaptation strategies,style_simulation
+TXT_0545,ai,digital divide in rural areas,style_simulation
+TXT_0546,human,education reform debates,template+human_variation
+TXT_0548,human,mental health awareness campaigns,template+human_variation
+TXT_0550,human,food security in developing nations,template+human_variation
+TXT_0554,ai,gene editing ethics,style_simulation
+TXT_0555,human,aging population challenges,template+human_variation
+TXT_0556,ai,supply chain disruptions,style_simulation
+TXT_0558,human,biodiversity loss,template+human_variation
+TXT_0561,human,remote work productivity,template+human_variation
+TXT_0562,human,water scarcity,template+human_variation
+TXT_0564,human,autonomous vehicle safety,template+human_variation
+TXT_0565,human,education reform debates,template+human_variation
+TXT_0566,ai,student debt crisis,style_simulation
+TXT_0567,human,renewable energy adoption,template+human_variation
+TXT_0568,human,data privacy legislation,template+human_variation
+TXT_0569,ai,water scarcity,style_simulation
+TXT_0570,human,water scarcity,template+human_variation
+TXT_0571,ai,mental health awareness campaigns,style_simulation
+TXT_0572,ai,social media misinformation,style_simulation
+TXT_0573,ai,gene editing ethics,style_simulation
+TXT_0574,ai,cryptocurrency market volatility,style_simulation
+TXT_0576,ai,mental health awareness campaigns,style_simulation
+TXT_0578,ai,space exploration milestones,style_simulation
+TXT_0579,human,cryptocurrency market volatility,template+human_variation
+TXT_0580,human,cryptocurrency market volatility,template+human_variation
+TXT_0581,ai,education reform debates,style_simulation
+TXT_0582,human,economic inequality trends,template+human_variation
+TXT_0587,ai,data privacy legislation,style_simulation
+TXT_0588,ai,social media misinformation,style_simulation
+TXT_0589,human,vaccine distribution challenges,template+human_variation
+TXT_0593,human,gig economy labor rights,template+human_variation
+TXT_0603,human,education reform debates,template+human_variation
+TXT_0604,ai,election integrity concerns,style_simulation
+TXT_0607,ai,water scarcity,style_simulation
+TXT_0608,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0610,ai,economic inequality trends,style_simulation
+TXT_0611,ai,mental health awareness campaigns,style_simulation
+TXT_0612,human,gig economy labor rights,template+human_variation
+TXT_0613,human,urban housing shortages,template+human_variation
+TXT_0614,ai,economic inequality trends,style_simulation
+TXT_0615,ai,mental health awareness campaigns,style_simulation
+TXT_0618,ai,gene editing ethics,style_simulation
+TXT_0626,ai,climate change adaptation strategies,style_simulation
+TXT_0628,ai,water scarcity,style_simulation
+TXT_0630,ai,public transit investment,style_simulation
+TXT_0632,human,economic inequality trends,template+human_variation
+TXT_0633,human,artificial intelligence regulation,template+human_variation
+TXT_0635,human,food security in developing nations,template+human_variation
+TXT_0640,ai,vaccine distribution challenges,style_simulation
+TXT_0641,ai,antibiotic resistance,style_simulation
+TXT_0643,human,biodiversity loss,template+human_variation
+TXT_0645,human,gig economy labor rights,template+human_variation
+TXT_0648,human,space exploration milestones,template+human_variation
+TXT_0649,ai,social media misinformation,style_simulation
+TXT_0650,ai,data privacy legislation,style_simulation
+TXT_0652,ai,cryptocurrency market volatility,style_simulation
+TXT_0653,ai,mental health awareness campaigns,style_simulation
+TXT_0654,ai,public transit investment,style_simulation
+TXT_0655,ai,election integrity concerns,style_simulation
+TXT_0658,human,aging population challenges,template+human_variation
+TXT_0659,human,autonomous vehicle safety,template+human_variation
+TXT_0660,human,data privacy legislation,template+human_variation
+TXT_0663,ai,social media misinformation,style_simulation
+TXT_0665,ai,biodiversity loss,style_simulation
+TXT_0667,human,digital divide in rural areas,template+human_variation
+TXT_0669,human,gene editing ethics,template+human_variation
+TXT_0670,human,genomic research breakthroughs,template+human_variation
+TXT_0672,ai,gig economy labor rights,style_simulation
+TXT_0673,human,water scarcity,template+human_variation
+TXT_0682,ai,election integrity concerns,style_simulation
+TXT_0687,ai,urban housing shortages,style_simulation
+TXT_0688,ai,nuclear energy policy,style_simulation
+TXT_0689,ai,food security in developing nations,style_simulation
+TXT_0692,human,cryptocurrency market volatility,template+human_variation
+TXT_0693,human,autonomous vehicle safety,template+human_variation
+TXT_0695,ai,gig economy labor rights,style_simulation
+TXT_0696,ai,artificial intelligence regulation,style_simulation
+TXT_0697,human,social media misinformation,template+human_variation
+TXT_0701,human,genomic research breakthroughs,template+human_variation
+TXT_0704,human,vaccine distribution challenges,template+human_variation
+TXT_0705,human,nuclear energy policy,template+human_variation
+TXT_0707,human,vaccine distribution challenges,template+human_variation
+TXT_0709,human,biodiversity loss,template+human_variation
+TXT_0710,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0713,ai,antibiotic resistance,style_simulation
+TXT_0714,human,remote work productivity,template+human_variation
+TXT_0715,human,social media misinformation,template+human_variation
+TXT_0716,human,gig economy labor rights,template+human_variation
+TXT_0718,human,student debt crisis,template+human_variation
+TXT_0721,human,aging population challenges,template+human_variation
+TXT_0724,ai,election integrity concerns,style_simulation
+TXT_0725,ai,autonomous vehicle safety,style_simulation
+TXT_0729,human,remote work productivity,template+human_variation
+TXT_0731,human,food security in developing nations,template+human_variation
+TXT_0735,ai,biodiversity loss,style_simulation
+TXT_0737,ai,mental health awareness campaigns,style_simulation
+TXT_0738,ai,cryptocurrency market volatility,style_simulation
+TXT_0739,human,antibiotic resistance,template+human_variation
+TXT_0742,ai,aging population challenges,style_simulation
+TXT_0743,human,water scarcity,template+human_variation
+TXT_0745,human,nuclear energy policy,template+human_variation
+TXT_0746,human,artificial intelligence regulation,template+human_variation
+TXT_0748,human,digital divide in rural areas,template+human_variation
+TXT_0749,ai,artificial intelligence regulation,style_simulation
+TXT_0751,ai,social media misinformation,style_simulation
+TXT_0752,ai,vaccine distribution challenges,style_simulation
+TXT_0753,ai,remote work productivity,style_simulation
+TXT_0756,human,gene editing ethics,template+human_variation
+TXT_0760,ai,vaccine distribution challenges,style_simulation
+TXT_0761,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0765,human,climate change adaptation strategies,template+human_variation
+TXT_0768,ai,education reform debates,style_simulation
+TXT_0770,ai,vaccine distribution challenges,style_simulation
+TXT_0772,ai,gig economy labor rights,style_simulation
+TXT_0773,ai,economic inequality trends,style_simulation
+TXT_0774,ai,biodiversity loss,style_simulation
+TXT_0775,human,digital divide in rural areas,template+human_variation
+TXT_0776,human,gene editing ethics,template+human_variation
+TXT_0777,human,public transit investment,template+human_variation
+TXT_0778,ai,biodiversity loss,style_simulation
+TXT_0779,human,algorithmic bias in hiring,template+human_variation
+TXT_0784,human,digital divide in rural areas,template+human_variation
+TXT_0785,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_0786,ai,mental health awareness campaigns,style_simulation
+TXT_0787,human,renewable energy adoption,template+human_variation
+TXT_0789,ai,space exploration milestones,style_simulation
+TXT_0790,human,nuclear energy policy,template+human_variation
+TXT_0791,ai,artificial intelligence regulation,style_simulation
+TXT_0792,human,biodiversity loss,template+human_variation
+TXT_0793,human,nuclear energy policy,template+human_variation
+TXT_0794,ai,aging population challenges,style_simulation
+TXT_0795,human,student debt crisis,template+human_variation
+TXT_0799,ai,vaccine distribution challenges,style_simulation
+TXT_0800,human,algorithmic bias in hiring,template+human_variation
+TXT_0802,ai,urban housing shortages,style_simulation
+TXT_0804,human,nuclear energy policy,template+human_variation
+TXT_0805,human,economic inequality trends,template+human_variation
+TXT_0807,human,autonomous vehicle safety,template+human_variation
+TXT_0810,human,food security in developing nations,template+human_variation
+TXT_0813,ai,vaccine distribution challenges,style_simulation
+TXT_0815,human,social media misinformation,template+human_variation
+TXT_0816,ai,food security in developing nations,style_simulation
+TXT_0819,ai,genomic research breakthroughs,style_simulation
+TXT_0820,ai,water scarcity,style_simulation
+TXT_0825,human,supply chain disruptions,template+human_variation
+TXT_0826,human,algorithmic bias in hiring,template+human_variation
+TXT_0827,human,supply chain disruptions,template+human_variation
+TXT_0829,human,election integrity concerns,template+human_variation
+TXT_0830,human,space exploration milestones,template+human_variation
+TXT_0832,human,digital divide in rural areas,template+human_variation
+TXT_0833,human,economic inequality trends,template+human_variation
+TXT_0838,ai,remote work productivity,style_simulation
+TXT_0839,human,public transit investment,template+human_variation
+TXT_0840,ai,water scarcity,style_simulation
+TXT_0843,human,nuclear energy policy,template+human_variation
+TXT_0844,human,student debt crisis,template+human_variation
+TXT_0847,human,aging population challenges,template+human_variation
+TXT_0854,human,food security in developing nations,template+human_variation
+TXT_0855,human,mental health awareness campaigns,template+human_variation
+TXT_0864,ai,vaccine distribution challenges,style_simulation
+TXT_0875,human,space exploration milestones,template+human_variation
+TXT_0877,human,antibiotic resistance,template+human_variation
+TXT_0886,human,vaccine distribution challenges,template+human_variation
+TXT_0896,ai,mental health awareness campaigns,style_simulation
+TXT_0898,ai,supply chain disruptions,style_simulation
+TXT_0899,human,remote work productivity,template+human_variation
+TXT_0900,human,antibiotic resistance,template+human_variation
+TXT_0904,human,digital divide in rural areas,template+human_variation
+TXT_0906,human,artificial intelligence regulation,template+human_variation
+TXT_0909,ai,climate change adaptation strategies,style_simulation
+TXT_0910,ai,gene editing ethics,style_simulation
+TXT_0911,ai,renewable energy adoption,style_simulation
+TXT_0914,ai,public transit investment,style_simulation
+TXT_0915,human,climate change adaptation strategies,template+human_variation
+TXT_0918,ai,climate change adaptation strategies,style_simulation
+TXT_0919,ai,vaccine distribution challenges,style_simulation
+TXT_0920,human,student debt crisis,template+human_variation
+TXT_0921,ai,antibiotic resistance,style_simulation
+TXT_0922,ai,antibiotic resistance,style_simulation
+TXT_0925,human,cryptocurrency market volatility,template+human_variation
+TXT_0928,human,antibiotic resistance,template+human_variation
+TXT_0930,human,biodiversity loss,template+human_variation
+TXT_0935,human,nuclear energy policy,template+human_variation
+TXT_0940,ai,social media misinformation,style_simulation
+TXT_0941,human,urban housing shortages,template+human_variation
+TXT_0942,ai,food security in developing nations,style_simulation
+TXT_0952,human,cryptocurrency market volatility,template+human_variation
+TXT_0953,ai,public transit investment,style_simulation
+TXT_0956,ai,biodiversity loss,style_simulation
+TXT_0958,human,data privacy legislation,template+human_variation
+TXT_0963,ai,education reform debates,style_simulation
+TXT_0964,human,student debt crisis,template+human_variation
+TXT_0965,ai,social media misinformation,style_simulation
+TXT_0966,ai,climate change adaptation strategies,style_simulation
+TXT_0973,human,space exploration milestones,template+human_variation
+TXT_0975,human,aging population challenges,template+human_variation
+TXT_0977,human,gig economy labor rights,template+human_variation
+TXT_0979,human,artificial intelligence regulation,template+human_variation
+TXT_0980,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_0981,human,supply chain disruptions,template+human_variation
+TXT_0983,human,gig economy labor rights,template+human_variation
+TXT_0985,human,social media misinformation,template+human_variation
+TXT_0988,human,artificial intelligence regulation,template+human_variation
+TXT_0989,ai,food security in developing nations,style_simulation
+TXT_0992,human,aging population challenges,template+human_variation
+TXT_0993,human,algorithmic bias in hiring,template+human_variation
+TXT_0994,ai,urban housing shortages,style_simulation
+TXT_0997,human,genomic research breakthroughs,template+human_variation
+TXT_0998,human,public transit investment,template+human_variation
+TXT_0999,ai,renewable energy adoption,style_simulation
+TXT_1000,human,election integrity concerns,template+human_variation
+TXT_1005,human,renewable energy adoption,template+human_variation
+TXT_1008,ai,antibiotic resistance,style_simulation
+TXT_1011,human,student debt crisis,template+human_variation
+TXT_1012,ai,digital divide in rural areas,style_simulation
+TXT_1016,human,renewable energy adoption,template+human_variation
+TXT_1026,ai,space exploration milestones,style_simulation
+TXT_1029,ai,gene editing ethics,style_simulation
+TXT_1031,human,artificial intelligence regulation,template+human_variation
+TXT_1032,human,food security in developing nations,template+human_variation
+TXT_1033,ai,nuclear energy policy,style_simulation
+TXT_1035,human,food security in developing nations,template+human_variation
+TXT_1036,ai,aging population challenges,style_simulation
+TXT_1037,human,student debt crisis,template+human_variation
+TXT_1041,ai,space exploration milestones,style_simulation
+TXT_1042,ai,economic inequality trends,style_simulation
+TXT_1048,human,social media misinformation,template+human_variation
+TXT_1051,human,biodiversity loss,template+human_variation
+TXT_1052,ai,water scarcity,style_simulation
+TXT_1054,ai,aging population challenges,style_simulation
+TXT_1056,human,gig economy labor rights,template+human_variation
+TXT_1059,ai,algorithmic bias in hiring,style_simulation
+TXT_1063,ai,election integrity concerns,style_simulation
+TXT_1064,ai,genomic research breakthroughs,style_simulation
+TXT_1069,human,gene editing ethics,template+human_variation
+TXT_1071,human,vaccine distribution challenges,template+human_variation
+TXT_1072,ai,cryptocurrency market volatility,style_simulation
+TXT_1074,human,gig economy labor rights,template+human_variation
+TXT_1076,human,supply chain disruptions,template+human_variation
+TXT_1079,human,aging population challenges,template+human_variation
+TXT_1089,human,climate change adaptation strategies,template+human_variation
+TXT_1094,ai,gene editing ethics,style_simulation
+TXT_1095,ai,digital divide in rural areas,style_simulation
+TXT_1100,ai,education reform debates,style_simulation
+TXT_1102,human,biodiversity loss,template+human_variation
+TXT_1104,ai,supply chain disruptions,style_simulation
+TXT_1106,ai,genomic research breakthroughs,style_simulation
+TXT_1108,ai,economic inequality trends,style_simulation
+TXT_1112,ai,supply chain disruptions,style_simulation
+TXT_1114,ai,artificial intelligence regulation,style_simulation
+TXT_1115,ai,aging population challenges,style_simulation
+TXT_1118,human,genomic research breakthroughs,template+human_variation
+TXT_1119,human,water scarcity,template+human_variation
+TXT_1126,ai,nuclear energy policy,style_simulation
+TXT_1128,human,nuclear energy policy,template+human_variation
+TXT_1132,human,economic inequality trends,template+human_variation
+TXT_1134,ai,data privacy legislation,style_simulation
+TXT_1139,human,nuclear energy policy,template+human_variation
+TXT_1140,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_1143,ai,digital divide in rural areas,style_simulation
+TXT_1147,ai,remote work productivity,style_simulation
+TXT_1148,human,gig economy labor rights,template+human_variation
+TXT_1153,human,gene editing ethics,template+human_variation
+TXT_1154,human,student debt crisis,template+human_variation
+TXT_1159,human,urban housing shortages,template+human_variation
+TXT_1161,ai,supply chain disruptions,style_simulation
+TXT_1163,ai,renewable energy adoption,style_simulation
+TXT_1166,human,digital divide in rural areas,template+human_variation
+TXT_1168,ai,water scarcity,style_simulation
+TXT_1171,human,water scarcity,template+human_variation
+TXT_1172,ai,gene editing ethics,style_simulation
+TXT_1177,ai,food security in developing nations,style_simulation
+TXT_1178,human,urban housing shortages,template+human_variation
+TXT_1179,ai,climate change adaptation strategies,style_simulation
+TXT_1184,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1188,human,renewable energy adoption,template+human_variation
+TXT_1189,human,public transit investment,template+human_variation
+TXT_1196,ai,algorithmic bias in hiring,style_simulation
+TXT_1197,human,digital divide in rural areas,template+human_variation
+TXT_1201,human,public transit investment,template+human_variation
+TXT_1206,ai,social media misinformation,style_simulation
+TXT_1207,human,cryptocurrency market volatility,template+human_variation
+TXT_1209,ai,nuclear energy policy,style_simulation
+TXT_1212,ai,artificial intelligence regulation,style_simulation
+TXT_1223,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1227,ai,algorithmic bias in hiring,style_simulation
+TXT_1230,human,remote work productivity,template+human_variation
+TXT_1231,human,water scarcity,template+human_variation
+TXT_1235,ai,student debt crisis,style_simulation
+TXT_1238,ai,economic inequality trends,style_simulation
+TXT_1240,ai,aging population challenges,style_simulation
+TXT_1241,human,data privacy legislation,template+human_variation
+TXT_1248,ai,mental health awareness campaigns,style_simulation
+TXT_1249,human,public transit investment,template+human_variation
+TXT_1250,ai,autonomous vehicle safety,style_simulation
+TXT_1251,ai,vaccine distribution challenges,style_simulation
+TXT_1258,ai,urban housing shortages,style_simulation
+TXT_1259,human,cryptocurrency market volatility,template+human_variation
+TXT_1260,human,mental health awareness campaigns,template+human_variation
+TXT_1262,human,election integrity concerns,template+human_variation
+TXT_1263,ai,education reform debates,style_simulation
+TXT_1268,ai,food security in developing nations,style_simulation
+TXT_1274,human,climate change adaptation strategies,template+human_variation
+TXT_1277,ai,autonomous vehicle safety,style_simulation
+TXT_1282,ai,gene editing ethics,style_simulation
+TXT_1284,ai,data privacy legislation,style_simulation
+TXT_1290,human,antibiotic resistance,template+human_variation
+TXT_1291,human,student debt crisis,template+human_variation
+TXT_1292,ai,student debt crisis,style_simulation
+TXT_1294,ai,data privacy legislation,style_simulation
+TXT_1296,ai,algorithmic bias in hiring,style_simulation
+TXT_1297,ai,biodiversity loss,style_simulation
+TXT_1301,human,aging population challenges,template+human_variation
+TXT_1304,ai,genomic research breakthroughs,style_simulation
+TXT_1306,human,gene editing ethics,template+human_variation
+TXT_1309,ai,public transit investment,style_simulation
+TXT_1310,ai,data privacy legislation,style_simulation
+TXT_1311,ai,public transit investment,style_simulation
+TXT_1312,ai,supply chain disruptions,style_simulation
+TXT_1317,ai,digital divide in rural areas,style_simulation
+TXT_1330,ai,gig economy labor rights,style_simulation
+TXT_1331,ai,autonomous vehicle safety,style_simulation
+TXT_1332,human,digital divide in rural areas,template+human_variation
+TXT_1341,human,education reform debates,template+human_variation
+TXT_1342,ai,economic inequality trends,style_simulation
+TXT_1346,human,urban housing shortages,template+human_variation
+TXT_1349,human,nuclear energy policy,template+human_variation
+TXT_1353,human,social media misinformation,template+human_variation
+TXT_1355,ai,urban housing shortages,style_simulation
+TXT_1357,ai,autonomous vehicle safety,style_simulation
+TXT_1367,human,digital divide in rural areas,template+human_variation
+TXT_1382,human,nuclear energy policy,template+human_variation
+TXT_1383,ai,election integrity concerns,style_simulation
+TXT_1386,human,aging population challenges,template+human_variation
+TXT_1391,human,genomic research breakthroughs,template+human_variation
+TXT_1395,ai,social media misinformation,style_simulation
+TXT_1399,ai,education reform debates,style_simulation
+TXT_1405,ai,urban housing shortages,style_simulation
+TXT_1412,human,urban housing shortages,template+human_variation
+TXT_1414,ai,education reform debates,style_simulation
+TXT_1415,human,artificial intelligence regulation,template+human_variation
+TXT_1426,ai,aging population challenges,style_simulation
+TXT_1427,ai,genomic research breakthroughs,style_simulation
+TXT_1428,human,climate change adaptation strategies,template+human_variation
+TXT_1431,human,antibiotic resistance,template+human_variation
+TXT_1432,ai,water scarcity,style_simulation
+TXT_1433,ai,cryptocurrency market volatility,style_simulation
+TXT_1437,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_1441,ai,supply chain disruptions,style_simulation
+TXT_1444,human,space exploration milestones,template+human_variation
+TXT_1447,ai,digital divide in rural areas,style_simulation
+TXT_1449,ai,artificial intelligence regulation,style_simulation
+TXT_1454,ai,data privacy legislation,style_simulation
+TXT_1464,human,algorithmic bias in hiring,template+human_variation
+TXT_1465,human,vaccine distribution challenges,template+human_variation
+TXT_1467,ai,education reform debates,style_simulation
+TXT_1469,human,climate change adaptation strategies,template+human_variation
+TXT_1473,ai,student debt crisis,style_simulation
+TXT_1474,ai,climate change adaptation strategies,style_simulation
+TXT_1480,human,space exploration milestones,template+human_variation
+TXT_1484,human,climate change adaptation strategies,template+human_variation
+TXT_1486,human,nuclear energy policy,template+human_variation
+TXT_1499,human,data privacy legislation,template+human_variation
+TXT_1500,ai,biodiversity loss,style_simulation
+TXT_1501,human,social media misinformation,template+human_variation
+TXT_1505,human,social media misinformation,template+human_variation
+TXT_1509,human,food security in developing nations,template+human_variation
+TXT_1512,ai,renewable energy adoption,style_simulation
+TXT_1522,ai,renewable energy adoption,style_simulation
+TXT_1523,ai,food security in developing nations,style_simulation
+TXT_1527,human,remote work productivity,template+human_variation
+TXT_1531,human,remote work productivity,template+human_variation
+TXT_1544,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1545,human,algorithmic bias in hiring,template+human_variation
+TXT_1546,ai,genomic research breakthroughs,style_simulation
+TXT_1549,human,space exploration milestones,template+human_variation
+TXT_1551,human,supply chain disruptions,template+human_variation
+TXT_1555,human,antibiotic resistance,template+human_variation
+TXT_1557,ai,social media misinformation,style_simulation
+TXT_1558,human,election integrity concerns,template+human_variation
+TXT_1561,human,cryptocurrency market volatility,template+human_variation
+TXT_1562,ai,mental health awareness campaigns,style_simulation
+TXT_1569,ai,gig economy labor rights,style_simulation
+TXT_1577,human,election integrity concerns,template+human_variation
+TXT_1580,human,gig economy labor rights,template+human_variation
+TXT_1583,ai,food security in developing nations,style_simulation
+TXT_1585,human,social media misinformation,template+human_variation
+TXT_1601,human,gene editing ethics,template+human_variation
+TXT_1603,ai,gene editing ethics,style_simulation
+TXT_1604,human,supply chain disruptions,template+human_variation
+TXT_1609,ai,space exploration milestones,style_simulation
+TXT_1613,ai,gig economy labor rights,style_simulation
+TXT_1626,ai,nuclear energy policy,style_simulation
+TXT_1631,human,education reform debates,template+human_variation
+TXT_1642,ai,renewable energy adoption,style_simulation
+TXT_1643,ai,data privacy legislation,style_simulation
+TXT_1652,human,economic inequality trends,template+human_variation
+TXT_1657,ai,public transit investment,style_simulation
+TXT_1660,ai,vaccine distribution challenges,style_simulation
+TXT_1674,human,remote work productivity,template+human_variation
+TXT_1676,ai,space exploration milestones,style_simulation
+TXT_1677,ai,student debt crisis,style_simulation
+TXT_1683,human,digital divide in rural areas,template+human_variation
+TXT_1696,ai,remote work productivity,style_simulation
+TXT_1697,human,remote work productivity,template+human_variation
+TXT_1698,ai,gig economy labor rights,style_simulation
+TXT_1705,ai,data privacy legislation,style_simulation
+TXT_1708,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1710,human,climate change adaptation strategies,template+human_variation
+TXT_1727,ai,nuclear energy policy,style_simulation
+TXT_1731,ai,algorithmic bias in hiring,style_simulation
+TXT_1744,ai,student debt crisis,style_simulation
+TXT_1745,ai,genomic research breakthroughs,style_simulation
+TXT_1746,human,election integrity concerns,template+human_variation
+TXT_1754,human,autonomous vehicle safety,template+human_variation
+TXT_1756,human,digital divide in rural areas,template+human_variation
+TXT_1758,ai,election integrity concerns,style_simulation
+TXT_1764,ai,digital divide in rural areas,style_simulation
+TXT_1770,human,nuclear energy policy,template+human_variation
+TXT_1773,ai,antibiotic resistance,style_simulation
+TXT_1774,ai,gig economy labor rights,style_simulation
+TXT_1776,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1777,ai,genomic research breakthroughs,style_simulation
+TXT_1780,ai,genomic research breakthroughs,style_simulation
+TXT_1781,ai,aging population challenges,style_simulation
+TXT_1782,human,antibiotic resistance,template+human_variation
+TXT_1788,ai,nuclear energy policy,style_simulation
+TXT_1793,ai,renewable energy adoption,style_simulation
+TXT_1796,ai,algorithmic bias in hiring,style_simulation
+TXT_1809,human,cryptocurrency market volatility,template+human_variation
+TXT_1813,ai,student debt crisis,style_simulation
+TXT_1825,human,remote work productivity,template+human_variation
+TXT_1827,ai,artificial intelligence regulation,style_simulation
+TXT_1840,ai,gene editing ethics,style_simulation
+TXT_1841,human,education reform debates,template+human_variation
+TXT_1861,ai,urban housing shortages,style_simulation
+TXT_1863,ai,public transit investment,style_simulation
+TXT_1872,human,urban housing shortages,template+human_variation
+TXT_1873,ai,cryptocurrency market volatility,style_simulation
+TXT_1881,ai,cybersecurity threats to infrastructure,style_simulation
+TXT_1890,ai,antibiotic resistance,style_simulation
+TXT_1908,ai,nuclear energy policy,style_simulation
+TXT_1916,ai,supply chain disruptions,style_simulation
+TXT_1920,human,nuclear energy policy,template+human_variation
+TXT_1936,ai,artificial intelligence regulation,style_simulation
+TXT_1943,ai,food security in developing nations,style_simulation
+TXT_1944,ai,election integrity concerns,style_simulation
+TXT_1946,ai,autonomous vehicle safety,style_simulation
+TXT_1954,human,cybersecurity threats to infrastructure,template+human_variation
+TXT_1959,human,remote work productivity,template+human_variation
+TXT_1960,ai,food security in developing nations,style_simulation
+TXT_1976,ai,aging population challenges,style_simulation
+TXT_1985,ai,economic inequality trends,style_simulation
+TXT_1992,ai,public transit investment,style_simulation
+TXT_1993,ai,biodiversity loss,style_simulation
+TXT_1995,ai,algorithmic bias in hiring,style_simulation
+TXT_1996,ai,economic inequality trends,style_simulation

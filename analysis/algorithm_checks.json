@@ -1,0 +1,12 @@
+{
+  "stable_softmax": true,
+  "weighted_fedavg": true,
+  "server_has_no_client_data": true,
+  "tree_pipelines_and_shap": {
+    "DT": 0.0,
+    "RF": 8.881784197001252e-16,
+    "XGB": 2.384185791015625e-07
+  },
+  "nadeau_bengio": true,
+  "dropout_disabled_inference": true
+}

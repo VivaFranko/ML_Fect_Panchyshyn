@@ -1,0 +1,29 @@
+{
+  "number": 20,
+  "seed": 62,
+  "studies": 18,
+  "completed_trials": 540,
+  "test_rows": 180,
+  "independently_recomputed_metrics": {
+    "DT": {
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.9144927764726903,
+      "balanced_accuracy": 0.897080291970803
+    },
+    "RF": {
+      "accuracy": 0.9944444444444445,
+      "macro_f1": 0.9326060606060607,
+      "balanced_accuracy": 0.9
+    },
+    "XGB": {
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.7929401330376941,
+      "balanced_accuracy": 0.7985401459854015
+    }
+  },
+  "shap_additivity_errors": {
+    "DT": 3.3306690738754696e-16,
+    "RF": 3.3306690738754696e-16,
+    "XGB": 1.4156103134155273e-07
+  }
+}

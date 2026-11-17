@@ -1,0 +1,46 @@
+{
+  "source_hashes": 8,
+  "completed_labs": {
+    "1": {
+      "executed_cells": 18,
+      "figures_verified": 5,
+      "pages": 14,
+      "no_empty_pages": true,
+      "split_disjoint": true
+    },
+    "2": {
+      "executed_cells": 27,
+      "figures_verified": 7,
+      "pages": 16,
+      "no_empty_pages": true,
+      "split_disjoint": true
+    },
+    "3": {
+      "executed_cells": 24,
+      "figures_verified": 10,
+      "pages": 18,
+      "no_empty_pages": true,
+      "split_disjoint": true
+    },
+    "4": {
+      "executed_cells": 51,
+      "figures_verified": 19,
+      "pages": 27,
+      "no_empty_pages": true,
+      "split_disjoint": true
+    },
+    "5": {
+      "executed_cells": 28,
+      "figures_verified": 16,
+      "pages": 18,
+      "no_empty_pages": true,
+      "split_disjoint": true
+    }
+  },
+  "student": "Панчишин Володимир",
+  "group": "ФеІ-46С",
+  "individual_number": 20,
+  "individual_seed": 62,
+  "independent_r2": 0.8630497348138302,
+  "independent_ann_accuracy": 0.8482
+}

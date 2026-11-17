@@ -1,0 +1,186 @@
+{
+  "source": "alitaqishah/ai-vs-human-text-classification-dataset-2026",
+  "raw_rows": 2000,
+  "rows": 866,
+  "duplicates_removed": 1134,
+  "short_removed": 0,
+  "conflicting_labels": 0,
+  "class_counts": {
+    "human": 479,
+    "ai": 387
+  },
+  "generation_methods": {
+    "template+human_variation": 479,
+    "style_simulation": 387
+  },
+  "source_models": {
+    "human": 479,
+    "gpt-4o": 202,
+    "gemini-2.0": 185
+  },
+  "topics": 30,
+  "split": {
+    "train": 692,
+    "test": 174
+  },
+  "embedding": {
+    "dimension": 100,
+    "window": 5,
+    "min_count": 2,
+    "sg": 1,
+    "workers": 1,
+    "seed": 42,
+    "epochs": 20,
+    "bucket": 100000
+  },
+  "models": {
+    "Mean / SVM": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "Mean / LogReg": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "Mean / KNN": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "TF-IDF / SVM": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "TF-IDF / LogReg": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "TF-IDF / KNN": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "balanced_accuracy": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "silhouette_100d": {
+    "Mean": 0.04792874479821822,
+    "TF-IDF": 0.048998108952139595
+  },
+  "top_ai_words": [
+    {
+      "word": "challenge",
+      "mean_tfidf": 0.7981431236313802
+    },
+    {
+      "word": "framework",
+      "mean_tfidf": 0.7942825432762534
+    },
+    {
+      "word": "underscore",
+      "mean_tfidf": 0.650105398726481
+    },
+    {
+      "word": "development",
+      "mean_tfidf": 0.6175392490411052
+    },
+    {
+      "word": "research",
+      "mean_tfidf": 0.6058024859959021
+    },
+    {
+      "word": "think",
+      "mean_tfidf": 0.6048526761324488
+    },
+    {
+      "word": "study",
+      "mean_tfidf": 0.6043963337915768
+    },
+    {
+      "word": "datum",
+      "mean_tfidf": 0.5951837517235081
+    },
+    {
+      "word": "expert",
+      "mean_tfidf": 0.584013651531647
+    },
+    {
+      "word": "recommendation",
+      "mean_tfidf": 0.575473600952512
+    },
+    {
+      "word": "stakeholder",
+      "mean_tfidf": 0.5668675263812476
+    },
+    {
+      "word": "address",
+      "mean_tfidf": 0.5494517484921448
+    },
+    {
+      "word": "solution",
+      "mean_tfidf": 0.5494517484921448
+    },
+    {
+      "word": "finding",
+      "mean_tfidf": 0.5437057210447082
+    },
+    {
+      "word": "conversation",
+      "mean_tfidf": 0.5402440979384646
+    }
+  ],
+  "group_holdout": {
+    "train": 677,
+    "test": 189,
+    "train_topics": 24,
+    "test_topics": 6,
+    "overlapping_topics": 0,
+    "models": {
+      "Mean / SVM": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0
+      },
+      "Mean / LogReg": {
+        "accuracy": 0.9788359788359788,
+        "macro_f1": 0.9787353735373537,
+        "balanced_accuracy": 0.9805825242718447,
+        "roc_auc": 1.0
+      },
+      "Mean / KNN": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0
+      },
+      "TF-IDF / SVM": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0
+      },
+      "TF-IDF / LogReg": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0
+      },
+      "TF-IDF / KNN": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "limitation": "Розмітка є заявою автора датасету. Метадані generation_method містять шаблонні способи формування текстів; оцінки не доводять здатність визначати авторство довільного тексту."
+}

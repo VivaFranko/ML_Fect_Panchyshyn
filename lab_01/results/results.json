@@ -1,0 +1,241 @@
+{
+  "source": "Ames Housing, De Cock (2011), 2930 спостережень",
+  "shape": [
+    2930,
+    82
+  ],
+  "split": {
+    "train": 1758,
+    "validation": 586,
+    "test": 586
+  },
+  "numeric": [
+    "Overall Qual",
+    "Gr Liv Area",
+    "Garage Cars",
+    "Total Bsmt SF",
+    "Garage Area",
+    "1st Flr SF",
+    "Year Built",
+    "Full Bath",
+    "Mas Vnr Area",
+    "Year Remod/Add"
+  ],
+  "categorical": [
+    "Neighborhood",
+    "Bldg Type",
+    "House Style",
+    "Kitchen Qual"
+  ],
+  "correlations": {
+    "Overall Qual": 0.7912382665071479,
+    "Gr Liv Area": 0.7038955980866689,
+    "Garage Cars": 0.6424014247042827,
+    "Total Bsmt SF": 0.6421257239418854,
+    "Garage Area": 0.6306204348269888,
+    "1st Flr SF": 0.6239463344262846,
+    "Year Built": 0.5432920181648935,
+    "Full Bath": 0.5427913828802416,
+    "Mas Vnr Area": 0.5124403080345359,
+    "Year Remod/Add": 0.5110514544583687,
+    "TotRms AbvGrd": 0.4899073500112944,
+    "Fireplaces": 0.4700915008385448,
+    "BsmtFin SF 1": 0.4296739740905747,
+    "Lot Area": 0.2683028574643475
+  },
+  "missing_train": {
+    "Overall Qual": 0,
+    "Gr Liv Area": 0,
+    "Garage Cars": 1,
+    "Total Bsmt SF": 1,
+    "Garage Area": 1,
+    "1st Flr SF": 0,
+    "Year Built": 0,
+    "Full Bath": 0,
+    "Mas Vnr Area": 12,
+    "Year Remod/Add": 0,
+    "Neighborhood": 0,
+    "Bldg Type": 0,
+    "House Style": 0,
+    "Kitchen Qual": 0
+  },
+  "encoded_features": 55,
+  "models": {
+    "Batch GD": {
+      "learning_rate": 0.08,
+      "batch_size": 1758,
+      "epochs": 2200,
+      "train": {
+        "r2": 0.8659020719465568,
+        "rmse": 28481.14441158772,
+        "mae": 18290.432059244155
+      },
+      "validation": {
+        "r2": 0.8068119333432814,
+        "rmse": 36546.532621073144,
+        "mae": 19631.971320988217
+      },
+      "test": {
+        "r2": 0.8732257735229849,
+        "rmse": 29397.91526204784,
+        "mae": 18742.983342855234
+      }
+    },
+    "SGD": {
+      "learning_rate": 0.002,
+      "batch_size": 1,
+      "epochs": 220,
+      "train": {
+        "r2": 0.8645065032851474,
+        "rmse": 28628.963673850725,
+        "mae": 18459.301130209835
+      },
+      "validation": {
+        "r2": 0.8192985077294924,
+        "rmse": 35345.72552445549,
+        "mae": 19709.436165770225
+      },
+      "test": {
+        "r2": 0.8630497348138302,
+        "rmse": 30555.014055573978,
+        "mae": 19261.074648278453
+      }
+    },
+    "Mini-batch GD": {
+      "learning_rate": 0.03,
+      "batch_size": 64,
+      "epochs": 447,
+      "train": {
+        "r2": 0.8647209012951059,
+        "rmse": 28606.304199327882,
+        "mae": 18213.255939917966
+      },
+      "validation": {
+        "r2": 0.8151951297301936,
+        "rmse": 35744.78895405088,
+        "mae": 19505.20948945065
+      },
+      "test": {
+        "r2": 0.8665317227064209,
+        "rmse": 30164.07948655274,
+        "mae": 18746.271890600532
+      }
+    }
+  },
+  "trials": [
+    {
+      "method": "Batch GD",
+      "lr": 0.01,
+      "epochs": 2200,
+      "r2": 0.7917417916071585,
+      "rmse": 37945.22174100488,
+      "mae": 20312.630434183076
+    },
+    {
+      "method": "Batch GD",
+      "lr": 0.03,
+      "epochs": 2200,
+      "r2": 0.8017200559063109,
+      "rmse": 37025.03050377947,
+      "mae": 19757.673344090563
+    },
+    {
+      "method": "Batch GD",
+      "lr": 0.08,
+      "epochs": 2200,
+      "r2": 0.8068119333432814,
+      "rmse": 36546.532621073144,
+      "mae": 19631.971320988217
+    },
+    {
+      "method": "SGD",
+      "lr": 0.0005,
+      "epochs": 220,
+      "r2": 0.812287190850077,
+      "rmse": 36024.916728626406,
+      "mae": 19511.204381091044
+    },
+    {
+      "method": "SGD",
+      "lr": 0.002,
+      "epochs": 220,
+      "r2": 0.8192985077294924,
+      "rmse": 35345.72552445549,
+      "mae": 19709.436165770225
+    },
+    {
+      "method": "SGD",
+      "lr": 0.008,
+      "epochs": 102,
+      "r2": 0.8177117143236589,
+      "rmse": 35500.57696866576,
+      "mae": 22266.958899045254
+    },
+    {
+      "method": "Mini-batch GD",
+      "lr": 0.003,
+      "epochs": 650,
+      "r2": 0.8011921266484332,
+      "rmse": 37074.28814134666,
+      "mae": 19797.476164174474
+    },
+    {
+      "method": "Mini-batch GD",
+      "lr": 0.01,
+      "epochs": 322,
+      "r2": 0.8073091910433328,
+      "rmse": 36499.46772130413,
+      "mae": 19695.043521675412
+    },
+    {
+      "method": "Mini-batch GD",
+      "lr": 0.03,
+      "epochs": 447,
+      "r2": 0.8151951297301936,
+      "rmse": 35744.78895405088,
+      "mae": 19505.20948945065
+    }
+  ],
+  "winner": "SGD",
+  "gradient_check": {
+    "parameters_checked": 30,
+    "max_relative_error": 5.5401638056220693e-11,
+    "epsilon": 1e-05
+  },
+  "shapiro": {
+    "statistic": 0.8483354387301881,
+    "p": 4.421725144399477e-38
+  },
+  "breusch_pagan": {
+    "statistic": 456.8930566730512,
+    "df": 51,
+    "p": 1.3698280014136498e-66
+  },
+  "vif": {
+    "Overall Qual": 2.577350091961567,
+    "Gr Liv Area": 2.738185918450652,
+    "Garage Cars": 5.630399048404349,
+    "Total Bsmt SF": 3.6608490688944326,
+    "Garage Area": 5.1991386093110865,
+    "1st Flr SF": 3.8120705355875306,
+    "Year Built": 2.267910457380456,
+    "Full Bath": 2.159435091785965,
+    "Mas Vnr Area": 1.3822728972132914,
+    "Year Remod/Add": 1.767765099718821
+  },
+  "ridge": {
+    "lambda": 0.001,
+    "norm_unregularized": 1.709684490158358,
+    "norm_regularized": 1.4321518878120685,
+    "validation": {
+      "r2": 0.8146590221359025,
+      "rmse": 35796.59812768939,
+      "mae": 19501.59252587156
+    },
+    "test": {
+      "r2": 0.8673539210501754,
+      "rmse": 30071.026778879273,
+      "mae": 18681.162951822902
+    }
+  }
+}

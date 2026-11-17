@@ -1,0 +1,1487 @@
+{
+  "number": 20,
+  "seed": 62,
+  "source": "UCI Annealing: anneal.data + anneal.test, 898 рядків",
+  "shape": [
+    898,
+    39
+  ],
+  "classes": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "U"
+  ],
+  "class_counts": {
+    "3": 684,
+    "2": 99,
+    "5": 67,
+    "U": 40,
+    "1": 8
+  },
+  "split": {
+    "train": 718,
+    "test": 180
+  },
+  "train_class_counts": [
+    6,
+    79,
+    547,
+    54,
+    32
+  ],
+  "removed_train_constant_or_empty": [
+    "product-type",
+    "temper_rolling",
+    "non-ageing",
+    "surface-finish",
+    "bc",
+    "bf",
+    "bt",
+    "bl",
+    "m",
+    "chrom",
+    "phos",
+    "cbond",
+    "marvi",
+    "exptl",
+    "ferro",
+    "corr",
+    "lustre",
+    "jurofm",
+    "s",
+    "p"
+  ],
+  "missingness_train": {
+    "blue/bright/varn/clean": 0.9930362116991643,
+    "packing": 0.9916434540389972,
+    "enamelability": 0.9832869080779945,
+    "oil": 0.9261838440111421,
+    "family": 0.8593314763231198,
+    "bw/me": 0.7632311977715878,
+    "formability": 0.35097493036211697,
+    "condition": 0.3286908077994429,
+    "surface-quality": 0.266016713091922,
+    "steel": 0.0947075208913649,
+    "strength": 0.0,
+    "carbon": 0.0,
+    "hardness": 0.0,
+    "shape": 0.0,
+    "width": 0.0,
+    "thick": 0.0,
+    "len": 0.0,
+    "bore": 0.0
+  },
+  "missing_association": [
+    {
+      "feature": "blue/bright/varn/clean",
+      "missing_fraction": 0.9930362116991643,
+      "method": "Fisher, Monte Carlo 10000",
+      "p": 0.0025997400259974,
+      "table": [
+        [
+          1,
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          76,
+          546,
+          54,
+          32
+        ]
+      ]
+    },
+    {
+      "feature": "packing",
+      "missing_fraction": 0.9916434540389972,
+      "method": "Fisher, Monte Carlo 10000",
+      "p": 1.0,
+      "table": [
+        [
+          0,
+          0,
+          6,
+          0,
+          0
+        ],
+        [
+          6,
+          79,
+          541,
+          54,
+          32
+        ]
+      ]
+    },
+    {
+      "feature": "enamelability",
+      "missing_fraction": 0.9832869080779945,
+      "method": "Fisher, Monte Carlo 10000",
+      "p": 0.0010998900109989002,
+      "table": [
+        [
+          0,
+          7,
+          5,
+          0,
+          0
+        ],
+        [
+          6,
+          72,
+          542,
+          54,
+          32
+        ]
+      ]
+    },
+    {
+      "feature": "oil",
+      "missing_fraction": 0.9261838440111421,
+      "method": "Fisher, Monte Carlo 10000",
+      "p": 0.00029997000299970003,
+      "table": [
+        [
+          0,
+          0,
+          46,
+          0,
+          7
+        ],
+        [
+          6,
+          79,
+          501,
+          54,
+          25
+        ]
+      ]
+    },
+    {
+      "feature": "family",
+      "missing_fraction": 0.8593314763231198,
+      "method": "Fisher, Monte Carlo 10000",
+      "p": 9.999000099990002e-05,
+      "table": [
+        [
+          1,
+          0,
+          37,
+          54,
+          9
+        ],
+        [
+          5,
+          79,
+          510,
+          0,
+          23
+        ]
+      ]
+    }
+  ],
+  "baseline": {
+    "A / DT": {
+      "test_acc": {
+        "mean": 0.946147371147371,
+        "std": 0.019920494298376053,
+        "folds": [
+          0.9791666666666666,
+          0.9305555555555556,
+          0.9375,
+          0.9370629370629371,
+          0.972027972027972,
+          0.9444444444444444,
+          0.9861111111111112,
+          0.9305555555555556,
+          0.9300699300699301,
+          0.951048951048951,
+          0.9305555555555556,
+          0.9583333333333334,
+          0.9166666666666666,
+          0.9440559440559441,
+          0.9440559440559441
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.8827665529405321,
+        "std": 0.08949449809564324,
+        "folds": [
+          0.9667283935108486,
+          0.9201444732179365,
+          0.8620603797074384,
+          0.9195971391037805,
+          0.9445655693470048,
+          0.9362705636339463,
+          0.982206395754783,
+          0.7244787322768974,
+          0.9305299820049922,
+          0.9208536827476672,
+          0.7170907523848701,
+          0.9513135946622185,
+          0.8970367949807203,
+          0.735306553911205,
+          0.833315286863674
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.8931910586864716,
+        "std": 0.08876527659131657,
+        "folds": [
+          0.9838636363636365,
+          0.9242424242424242,
+          0.8458256880733945,
+          0.9024499582985822,
+          0.9296636085626911,
+          0.9477272727272726,
+          0.9800000000000001,
+          0.7426605504587156,
+          0.9496559633027524,
+          0.9179802613288851,
+          0.7037121212121212,
+          0.9612121212121213,
+          0.9117496723460026,
+          0.7601438698915763,
+          0.9369787322768974
+        ]
+      }
+    },
+    "A / RF": {
+      "test_acc": {
+        "mean": 0.9447520072520074,
+        "std": 0.01733270635563713,
+        "folds": [
+          0.9513888888888888,
+          0.9236111111111112,
+          0.9305555555555556,
+          0.9440559440559441,
+          0.965034965034965,
+          0.9444444444444444,
+          0.9861111111111112,
+          0.9166666666666666,
+          0.9370629370629371,
+          0.9370629370629371,
+          0.9583333333333334,
+          0.9513888888888888,
+          0.9444444444444444,
+          0.9300699300699301,
+          0.951048951048951
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.9097895297394558,
+        "std": 0.0628517726066438,
+        "folds": [
+          0.9372689738614156,
+          0.9186660989781608,
+          0.8480283157702513,
+          0.9261261261261261,
+          0.9522519717725197,
+          0.9260606060606061,
+          0.98301787253754,
+          0.8348971044623219,
+          0.9334460887949261,
+          0.9113248766737139,
+          0.946060606060606,
+          0.9450635386119257,
+          0.9361333776612119,
+          0.727037037037037,
+          0.9214603516834755
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.910042879648384,
+        "std": 0.06840044014856232,
+        "folds": [
+          0.9552272727272728,
+          0.933939393939394,
+          0.806589121887287,
+          0.9042848206839033,
+          0.9379969418960246,
+          0.9162121212121213,
+          0.9963636363636365,
+          0.8051605504587156,
+          0.9458090075062552,
+          0.9306574923547399,
+          0.9362121212121212,
+          0.9593939393939394,
+          0.9639908256880734,
+          0.7514908256880733,
+          0.9073151237142063
+        ]
+      }
+    },
+    "A / XGB": {
+      "test_acc": {
+        "mean": 0.9484654234654236,
+        "std": 0.01739701754312301,
+        "folds": [
+          0.9652777777777778,
+          0.9236111111111112,
+          0.9444444444444444,
+          0.9370629370629371,
+          0.951048951048951,
+          0.9375,
+          0.9861111111111112,
+          0.9236111111111112,
+          0.9300699300699301,
+          0.958041958041958,
+          0.9652777777777778,
+          0.9583333333333334,
+          0.9375,
+          0.958041958041958,
+          0.951048951048951
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.8882971138055856,
+        "std": 0.08160957289855103,
+        "folds": [
+          0.9507051903912298,
+          0.9222482602747875,
+          0.8656759906759905,
+          0.9195971391037805,
+          0.7410573962916626,
+          0.9194323370693234,
+          0.9848484848484848,
+          0.8454397738285205,
+          0.7342430550201732,
+          0.9319444444444445,
+          0.9484552286519594,
+          0.9513135946622185,
+          0.9301682216058499,
+          0.7584739074676926,
+          0.9208536827476672
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.8853060155950064,
+        "std": 0.08945290553767453,
+        "folds": [
+          0.9588636363636365,
+          0.9454545454545455,
+          0.8209239842726082,
+          0.9024499582985822,
+          0.7148318042813456,
+          0.9200757575757577,
+          0.9848484848484848,
+          0.8176605504587157,
+          0.7351438698915763,
+          0.9468272171253822,
+          0.9216666666666666,
+          0.9612121212121213,
+          0.9621559633027523,
+          0.7694954128440367,
+          0.9179802613288851
+        ]
+      }
+    },
+    "B / DT": {
+      "test_acc": {
+        "mean": 0.9911778036778037,
+        "std": 0.006144339097353617,
+        "folds": [
+          0.9930555555555556,
+          1.0,
+          0.9791666666666666,
+          0.986013986013986,
+          0.993006993006993,
+          0.9930555555555556,
+          0.9930555555555556,
+          0.9930555555555556,
+          0.986013986013986,
+          0.993006993006993,
+          0.9930555555555556,
+          0.9791666666666666,
+          1.0,
+          0.993006993006993,
+          0.993006993006993
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.9636783985660373,
+        "std": 0.054161016924613406,
+        "folds": [
+          0.9837021426062522,
+          1.0,
+          0.9086580086580087,
+          0.9863834422657952,
+          0.9809049398090494,
+          0.9809132044426162,
+          0.9837104072398191,
+          0.9238095238095237,
+          0.9863834422657952,
+          0.9836937256292095,
+          0.9926434097212086,
+          0.9693756585879874,
+          1.0,
+          0.7913043478260869,
+          0.9836937256292095
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.9614817837616004,
+        "std": 0.05833359659490993,
+        "folds": [
+          0.9981818181818183,
+          1.0,
+          0.875,
+          0.9963302752293579,
+          0.9666666666666666,
+          0.9666666666666666,
+          0.9714285714285713,
+          0.9,
+          0.9963302752293579,
+          0.998165137614679,
+          0.9875,
+          0.9677922077922079,
+          1.0,
+          0.8,
+          0.998165137614679
+        ]
+      }
+    },
+    "B / RF": {
+      "test_acc": {
+        "mean": 0.9897856772856773,
+        "std": 0.005806298206237579,
+        "folds": [
+          0.9861111111111112,
+          0.9930555555555556,
+          0.9791666666666666,
+          1.0,
+          0.986013986013986,
+          0.9930555555555556,
+          0.9930555555555556,
+          0.9930555555555556,
+          0.986013986013986,
+          0.986013986013986,
+          0.9861111111111112,
+          0.9861111111111112,
+          1.0,
+          0.993006993006993,
+          0.986013986013986
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.9621012502383405,
+        "std": 0.05139516614749433,
+        "folds": [
+          0.9767199161694575,
+          0.9921984709002964,
+          0.9087821729187953,
+          1.0,
+          0.9739227133722548,
+          0.9809132044426162,
+          0.9921984709002964,
+          0.9324200913242009,
+          0.9863834422657952,
+          0.9648318042813455,
+          0.9735647671131542,
+          0.985665137614679,
+          1.0,
+          0.7990867579908676,
+          0.9648318042813455
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.9557765465930603,
+        "std": 0.058482671873787376,
+        "folds": [
+          0.9963636363636365,
+          0.9866666666666667,
+          0.8589285714285714,
+          1.0,
+          0.9648318042813455,
+          0.9666666666666666,
+          0.9866666666666667,
+          0.9,
+          0.9963302752293579,
+          0.9648318042813455,
+          0.9541666666666666,
+          0.9963636363636365,
+          1.0,
+          0.8,
+          0.9648318042813455
+        ]
+      }
+    },
+    "B / XGB": {
+      "test_acc": {
+        "mean": 0.9860722610722611,
+        "std": 0.006437009841824367,
+        "folds": [
+          0.9861111111111112,
+          1.0,
+          0.9861111111111112,
+          0.986013986013986,
+          0.9790209790209791,
+          0.9861111111111112,
+          0.9722222222222222,
+          0.9930555555555556,
+          0.986013986013986,
+          0.986013986013986,
+          0.9791666666666666,
+          0.9861111111111112,
+          0.9861111111111112,
+          0.993006993006993,
+          0.986013986013986
+        ]
+      },
+      "test_f1m": {
+        "mean": 0.9441298903462305,
+        "std": 0.06795081705765656,
+        "folds": [
+          0.9767199161694575,
+          1.0,
+          0.9161305361305361,
+          0.9863834422657952,
+          0.9665784557907845,
+          0.9581981981981983,
+          0.9656593406593407,
+          0.9324200913242009,
+          0.9863834422657952,
+          0.9648318042813455,
+          0.7726759859553148,
+          0.985665137614679,
+          0.9863834422657952,
+          0.7990867579908676,
+          0.9648318042813455
+        ]
+      },
+      "test_bacc": {
+        "mean": 0.9379539166236415,
+        "std": 0.07621421397253818,
+        "folds": [
+          0.9963636363636365,
+          1.0,
+          0.8714285714285713,
+          0.9963302752293579,
+          0.9523318042813456,
+          0.9333333333333333,
+          0.9466666666666667,
+          0.9,
+          0.9963302752293579,
+          0.9648318042813455,
+          0.7541666666666667,
+          0.9963636363636365,
+          0.9963302752293579,
+          0.8,
+          0.9648318042813455
+        ]
+      }
+    }
+  },
+  "nested": {
+    "DT": {
+      "mean": 0.9584906204823957,
+      "std": 0.05539172557523852,
+      "folds": [
+        0.9837021426062522,
+        0.977951933124347,
+        0.8595670995670996,
+        0.9863834422657952,
+        0.9848484848484848
+      ],
+      "ordinary_best_value": 0.9522370808555615
+    },
+    "RF": {
+      "mean": 0.9731907726018678,
+      "std": 0.03319586225900059,
+      "folds": [
+        0.9767199161694575,
+        0.9921984709002964,
+        0.9161305361305361,
+        1.0,
+        0.9809049398090494
+      ],
+      "ordinary_best_value": 0.9660247428204108
+    },
+    "XGB": {
+      "mean": 0.9691616489452606,
+      "std": 0.035259999730896975,
+      "folds": [
+        0.9767199161694575,
+        1.0,
+        0.9087821729187953,
+        0.9863834422657952,
+        0.9739227133722548
+      ],
+      "ordinary_best_value": 0.9546809661836416
+    }
+  },
+  "best_params": {
+    "DT": {
+      "max_depth": 18,
+      "min_samples_split": 11,
+      "min_samples_leaf": 1,
+      "class_weight": null
+    },
+    "RF": {
+      "n_estimators": 200,
+      "max_depth": 29,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "class_weight": null
+    },
+    "XGB": {
+      "n_estimators": 89,
+      "max_depth": 10,
+      "learning_rate": 0.0821760505789097,
+      "subsample": 0.7083667112317775,
+      "colsample_bytree": 0.8939491680671896,
+      "min_child_weight": 1.5451908574209172
+    }
+  },
+  "statistical_tests": {
+    "DT A-B": {
+      "mean_difference": -0.08091184562550527,
+      "t": -1.9285524955497486,
+      "p": 0.07431468075423772,
+      "df": 14,
+      "test_train_ratio": 0.25,
+      "significant_005": false
+    },
+    "RF A-B": {
+      "mean_difference": -0.05231172049888446,
+      "t": -4.0546456361852306,
+      "p": 0.0011824546068542356,
+      "df": 14,
+      "test_train_ratio": 0.25,
+      "significant_005": true
+    },
+    "XGB A-B": {
+      "mean_difference": -0.05583277654064475,
+      "t": -1.0266968159566934,
+      "p": 0.32197647577706323,
+      "df": 14,
+      "test_train_ratio": 0.25,
+      "significant_005": false
+    },
+    "B DT-RF": {
+      "mean_difference": 0.0015771483276971383,
+      "t": 0.24353766173933483,
+      "p": 0.8111212887584935,
+      "df": 14,
+      "test_train_ratio": 0.25,
+      "significant_005": false
+    }
+  },
+  "winner_nested_cv": "RF",
+  "test": {
+    "DT": {
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.9144927764726903,
+      "balanced_accuracy": 0.897080291970803,
+      "log_loss": 0.40658843926056915,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          135,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "RF": {
+      "accuracy": 0.9944444444444445,
+      "macro_f1": 0.9326060606060607,
+      "balanced_accuracy": 0.9,
+      "log_loss": 0.0504456121024334,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          137,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    "XGB": {
+      "accuracy": 0.9833333333333333,
+      "macro_f1": 0.7929401330376941,
+      "balanced_accuracy": 0.7985401459854015,
+      "log_loss": 0.046710480004549026,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          136,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8
+        ]
+      ]
+    }
+  },
+  "classification_report": {
+    "1": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "2": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "3": {
+      "precision": 0.9927536231884058,
+      "recall": 1.0,
+      "f1-score": 0.9963636363636363,
+      "support": 137.0
+    },
+    "5": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    },
+    "U": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "accuracy": 0.9944444444444445,
+    "macro avg": {
+      "precision": 0.9985507246376812,
+      "recall": 0.9,
+      "f1-score": 0.9326060606060607,
+      "support": 180.0
+    },
+    "weighted avg": {
+      "precision": 0.9944847020933978,
+      "recall": 0.9944444444444445,
+      "f1-score": 0.9935286195286196,
+      "support": 180.0
+    }
+  },
+  "importance": {
+    "DT": {
+      "mdi": {
+        "num__carbon": 0.17538536690546205,
+        "num__hardness": 0.18694566315295577,
+        "num__strength": 0.05612744603085703,
+        "num__thick": 0.0068940130068916375,
+        "num__width": 0.002107549385729651,
+        "num__len": 0.0,
+        "cat__family_TN": 0.006872800659178134,
+        "cat__family_ZS": 0.0,
+        "cat__steel_A": 0.0,
+        "cat__steel_K": 0.0,
+        "cat__steel_M": 0.0,
+        "cat__steel_R": 0.017818372079350723,
+        "cat__steel_S": 0.02945644012597217,
+        "cat__steel_V": 0.0,
+        "cat__steel_W": 0.0,
+        "cat__condition_A": 0.0,
+        "cat__condition_S": 0.0,
+        "cat__formability_1.0": 0.0,
+        "cat__formability_2.0": 0.0,
+        "cat__formability_3.0": 0.0,
+        "cat__formability_5.0": 0.0,
+        "cat__surface-quality_D": 0.0,
+        "cat__surface-quality_E": 0.0,
+        "cat__surface-quality_F": 0.0,
+        "cat__surface-quality_G": 0.0,
+        "cat__enamelability_1.0": 0.0,
+        "cat__enamelability_2.0": 0.028736448749176895,
+        "cat__bw/me_B": 0.0,
+        "cat__bw/me_M": 0.0,
+        "cat__blue/bright/varn/clean_B": 0.0,
+        "cat__blue/bright/varn/clean_C": 0.0,
+        "cat__blue/bright/varn/clean_V": 0.0,
+        "cat__shape_COIL": 0.0,
+        "cat__shape_SHEET": 0.0,
+        "cat__oil_N": 0.0,
+        "cat__oil_Y": 0.0,
+        "cat__bore_0": 0.0,
+        "cat__bore_500": 0.0,
+        "cat__bore_600": 0.0,
+        "cat__packing_2.0": 0.0,
+        "cat__packing_3.0": 0.0,
+        "miss__missingindicator_family": 0.196392112296251,
+        "miss__missingindicator_steel": 0.0,
+        "miss__missingindicator_condition": 0.0,
+        "miss__missingindicator_formability": 0.0,
+        "miss__missingindicator_surface-quality": 0.29326378760817473,
+        "miss__missingindicator_enamelability": 0.0,
+        "miss__missingindicator_bw/me": 0.0,
+        "miss__missingindicator_blue/bright/varn/clean": 0.0,
+        "miss__missingindicator_oil": 0.0,
+        "miss__missingindicator_packing": 0.0
+      },
+      "permutation_mean": {
+        "family": 0.35188223432000004,
+        "product-type": 0.0,
+        "steel": 0.01382070726977468,
+        "carbon": 0.18480348496990143,
+        "hardness": 0.18180531039978765,
+        "temper_rolling": 0.0,
+        "condition": 0.0,
+        "formability": 0.0,
+        "strength": 0.03864024193917531,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.49479537275534663,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": 0.0,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.0,
+        "thick": 0.04337055166345777,
+        "width": 0.0,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      },
+      "permutation_std": {
+        "family": 0.024341732271368956,
+        "product-type": 0.0,
+        "steel": 0.01589221609505884,
+        "carbon": 0.01280042314350184,
+        "hardness": 0.020463403459786658,
+        "temper_rolling": 0.0,
+        "condition": 0.0,
+        "formability": 0.0,
+        "strength": 0.00337475764227,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.03235349675469239,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": 0.0,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.0,
+        "thick": 0.012037760241287578,
+        "width": 0.0,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      }
+    },
+    "RF": {
+      "mdi": {
+        "num__carbon": 0.023874032908847837,
+        "num__hardness": 0.11898015717390328,
+        "num__strength": 0.04251813922068323,
+        "num__thick": 0.07511020369692717,
+        "num__width": 0.04411390916732996,
+        "num__len": 0.018094712229860626,
+        "cat__family_TN": 0.011892612056412179,
+        "cat__family_ZS": 0.012142665894926045,
+        "cat__steel_A": 0.03605235179355482,
+        "cat__steel_K": 0.008449797119599192,
+        "cat__steel_M": 0.007431158389460917,
+        "cat__steel_R": 0.026791766484763477,
+        "cat__steel_S": 0.008117421127842013,
+        "cat__steel_V": 0.0054036762739878815,
+        "cat__steel_W": 0.0011998453212525852,
+        "cat__condition_A": 0.01071280864403311,
+        "cat__condition_S": 0.009658641349527075,
+        "cat__formability_1.0": 0.004912732414349472,
+        "cat__formability_2.0": 0.03596511560309341,
+        "cat__formability_3.0": 0.02181464955022415,
+        "cat__formability_5.0": 0.0010186584873006614,
+        "cat__surface-quality_D": 0.0009210207472992083,
+        "cat__surface-quality_E": 0.01564804790874006,
+        "cat__surface-quality_F": 0.000663878743508868,
+        "cat__surface-quality_G": 0.008209917248917401,
+        "cat__enamelability_1.0": 0.006015373676694306,
+        "cat__enamelability_2.0": 0.004837463015081705,
+        "cat__bw/me_B": 0.0022263008049807098,
+        "cat__bw/me_M": 0.0032368193305137493,
+        "cat__blue/bright/varn/clean_B": 0.00037558794537167697,
+        "cat__blue/bright/varn/clean_C": 3.413189537207225e-05,
+        "cat__blue/bright/varn/clean_V": 0.00048376307553357745,
+        "cat__shape_COIL": 0.012381428099221084,
+        "cat__shape_SHEET": 0.010407664838835956,
+        "cat__oil_N": 0.0003351838599893298,
+        "cat__oil_Y": 9.41928054388656e-05,
+        "cat__bore_0": 0.0019183473289419108,
+        "cat__bore_500": 0.0012046110892115862,
+        "cat__bore_600": 0.0005479311890436114,
+        "cat__packing_2.0": 2.7314527205557985e-06,
+        "cat__packing_3.0": 1.3971415736899268e-06,
+        "miss__missingindicator_family": 0.06277565569268312,
+        "miss__missingindicator_steel": 0.008403509487324927,
+        "miss__missingindicator_condition": 0.05153379131338079,
+        "miss__missingindicator_formability": 0.03167790839793306,
+        "miss__missingindicator_surface-quality": 0.23235310160832398,
+        "miss__missingindicator_enamelability": 0.0045606438285018935,
+        "miss__missingindicator_bw/me": 0.005425310998367359,
+        "miss__missingindicator_blue/bright/varn/clean": 0.002296653932629339,
+        "miss__missingindicator_oil": 0.0067897755079036025,
+        "miss__missingindicator_packing": 0.00038280212808300363
+      },
+      "permutation_mean": {
+        "family": 0.12146379739423221,
+        "product-type": 0.0,
+        "steel": 0.05135091523159406,
+        "carbon": 0.0,
+        "hardness": 0.18668809156183452,
+        "temper_rolling": 0.0,
+        "condition": 0.0,
+        "formability": 0.06863363362990549,
+        "strength": 0.01836664133067023,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.339184487214259,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": 0.0,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.002244252027125482,
+        "thick": 0.049562478366507214,
+        "width": 0.0,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      },
+      "permutation_std": {
+        "family": 0.040560600901181465,
+        "product-type": 0.0,
+        "steel": 0.057436880049443126,
+        "carbon": 0.0,
+        "hardness": 0.025606375583642416,
+        "temper_rolling": 0.0,
+        "condition": 0.0,
+        "formability": 0.055796620326780275,
+        "strength": 0.0,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.05569604486818701,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": 0.0,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.002748636160332111,
+        "thick": 0.05505566698278534,
+        "width": 0.0,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      }
+    },
+    "XGB": {
+      "mdi": {
+        "num__carbon": 0.06431541591882706,
+        "num__hardness": 0.09328654408454895,
+        "num__strength": 0.021951688453555107,
+        "num__thick": 0.007645761594176292,
+        "num__width": 0.004125647246837616,
+        "num__len": 0.0051440647803246975,
+        "cat__family_TN": 0.12510503828525543,
+        "cat__family_ZS": 0.09908473491668701,
+        "cat__steel_A": 0.030376221984624863,
+        "cat__steel_K": 0.04005461186170578,
+        "cat__steel_M": 0.02711208164691925,
+        "cat__steel_R": 0.02546899951994419,
+        "cat__steel_S": 0.01395022589713335,
+        "cat__steel_V": 0.008321128785610199,
+        "cat__steel_W": 0.0,
+        "cat__condition_A": 0.00359114957973361,
+        "cat__condition_S": 0.003233998315408826,
+        "cat__formability_1.0": 0.0,
+        "cat__formability_2.0": 0.03500685468316078,
+        "cat__formability_3.0": 0.0007186565198935568,
+        "cat__formability_5.0": 0.0,
+        "cat__surface-quality_D": 0.0,
+        "cat__surface-quality_E": 0.007261352147907019,
+        "cat__surface-quality_F": 0.0,
+        "cat__surface-quality_G": 0.0036399911623448133,
+        "cat__enamelability_1.0": 0.037268754094839096,
+        "cat__enamelability_2.0": 0.029920199885964394,
+        "cat__bw/me_B": 0.016809159889817238,
+        "cat__bw/me_M": 0.0,
+        "cat__blue/bright/varn/clean_B": 0.0,
+        "cat__blue/bright/varn/clean_C": 0.0,
+        "cat__blue/bright/varn/clean_V": 0.0,
+        "cat__shape_COIL": 0.005181722808629274,
+        "cat__shape_SHEET": 0.0021145015489310026,
+        "cat__oil_N": 0.0,
+        "cat__oil_Y": 0.0,
+        "cat__bore_0": 0.009888367727398872,
+        "cat__bore_500": 0.0,
+        "cat__bore_600": 0.0,
+        "cat__packing_2.0": 0.0,
+        "cat__packing_3.0": 0.0,
+        "miss__missingindicator_family": 0.10307981073856354,
+        "miss__missingindicator_steel": 0.020415300503373146,
+        "miss__missingindicator_condition": 0.02340209297835827,
+        "miss__missingindicator_formability": 0.01657996140420437,
+        "miss__missingindicator_surface-quality": 0.09845591336488724,
+        "miss__missingindicator_enamelability": 0.011304178275167942,
+        "miss__missingindicator_bw/me": 0.00476790638640523,
+        "miss__missingindicator_blue/bright/varn/clean": 0.0,
+        "miss__missingindicator_oil": 0.00141808798070997,
+        "miss__missingindicator_packing": 0.0
+      },
+      "permutation_mean": {
+        "family": 0.1393774153625878,
+        "product-type": 0.0,
+        "steel": -0.10038487936139162,
+        "carbon": 0.005992947926519232,
+        "hardness": 0.19516399319329328,
+        "temper_rolling": 0.0,
+        "condition": 0.017094333194081778,
+        "formability": -0.00034609267874121665,
+        "strength": 0.01830931137923142,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.2271978959912869,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": -0.0011221183199974227,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.0,
+        "thick": 0.018862607256509234,
+        "width": -0.0240553252669888,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      },
+      "permutation_std": {
+        "family": 0.019187371510531268,
+        "product-type": 0.0,
+        "steel": 0.05176489096082239,
+        "carbon": 0.006027303492163227,
+        "hardness": 0.021199573748399238,
+        "temper_rolling": 0.0,
+        "condition": 0.006009671412845078,
+        "formability": 0.003280397071303891,
+        "strength": 0.0,
+        "non-ageing": 0.0,
+        "surface-finish": 0.0,
+        "surface-quality": 0.019158625839939002,
+        "enamelability": 0.0,
+        "bc": 0.0,
+        "bf": 0.0,
+        "bt": 0.0,
+        "bw/me": 0.0022442366399948455,
+        "bl": 0.0,
+        "m": 0.0,
+        "chrom": 0.0,
+        "phos": 0.0,
+        "cbond": 0.0,
+        "marvi": 0.0,
+        "exptl": 0.0,
+        "ferro": 0.0,
+        "corr": 0.0,
+        "blue/bright/varn/clean": 0.0,
+        "lustre": 0.0,
+        "jurofm": 0.0,
+        "s": 0.0,
+        "p": 0.0,
+        "shape": 0.0,
+        "thick": 0.013658951525406405,
+        "width": 0.053644827749487235,
+        "len": 0.0,
+        "oil": 0.0,
+        "bore": 0.0,
+        "packing": 0.0
+      }
+    }
+  },
+  "disagreement_count": 3,
+  "disagreements": [
+    {
+      "row": 585,
+      "true": "3",
+      "DT": "2",
+      "RF": "3",
+      "XGB": "2"
+    },
+    {
+      "row": 356,
+      "true": "3",
+      "DT": "U",
+      "RF": "3",
+      "XGB": "3"
+    },
+    {
+      "row": 188,
+      "true": "1",
+      "DT": "1",
+      "RF": "1",
+      "XGB": "3"
+    }
+  ],
+  "local_explanation": {
+    "source": "test",
+    "original_row": 585,
+    "true_class": "3",
+    "raw_features": {
+      "family": null,
+      "product-type": "C",
+      "steel": null,
+      "carbon": 0,
+      "hardness": 0,
+      "temper_rolling": "T",
+      "condition": "S",
+      "formability": 2.0,
+      "strength": 0,
+      "non-ageing": null,
+      "surface-finish": null,
+      "surface-quality": null,
+      "enamelability": null,
+      "bc": null,
+      "bf": null,
+      "bt": null,
+      "bw/me": null,
+      "bl": null,
+      "m": null,
+      "chrom": null,
+      "phos": null,
+      "cbond": null,
+      "marvi": null,
+      "exptl": null,
+      "ferro": null,
+      "corr": null,
+      "blue/bright/varn/clean": null,
+      "lustre": null,
+      "jurofm": null,
+      "s": null,
+      "p": null,
+      "shape": "COIL",
+      "thick": 3.2,
+      "width": 610.0,
+      "len": 0,
+      "oil": null,
+      "bore": 0,
+      "packing": null
+    },
+    "models": {
+      "DT": {
+        "predicted_class": "2",
+        "probabilities": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "expected_value": 0.11002785515320335,
+        "output": 1.0,
+        "output_scale": "probability",
+        "additivity_error": 3.3306690738754696e-16,
+        "top_contributions": [
+          {
+            "feature": "miss__missingindicator_surface-quality",
+            "shap": 0.4804105685755767,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "num__carbon",
+            "shap": 0.18960529387274033,
+            "transformed_value": 0.0
+          },
+          {
+            "feature": "miss__missingindicator_family",
+            "shap": 0.1467230963475382,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "cat__enamelability_2.0",
+            "shap": 0.028444009094317067,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "cat__steel_S",
+            "shap": 0.02677614874837904,
+            "transformed_value": 0.0
+          }
+        ],
+        "imputed_values": {
+          "family": "TN",
+          "steel": "A",
+          "surface-quality": "E",
+          "enamelability": 2.0,
+          "bw/me": "B",
+          "blue/bright/varn/clean": "B",
+          "oil": "Y",
+          "packing": 3.0
+        }
+      },
+      "RF": {
+        "predicted_class": "3",
+        "probabilities": [
+          0.0,
+          0.355,
+          0.555,
+          0.09,
+          0.0
+        ],
+        "expected_value": 0.7627437325905291,
+        "output": 0.555,
+        "output_scale": "probability",
+        "additivity_error": 3.3306690738754696e-16,
+        "top_contributions": [
+          {
+            "feature": "miss__missingindicator_surface-quality",
+            "shap": -0.308296457299862,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "num__thick",
+            "shap": -0.04023584280279085,
+            "transformed_value": 3.2
+          },
+          {
+            "feature": "cat__steel_R",
+            "shap": 0.03385803459526735,
+            "transformed_value": 0.0
+          },
+          {
+            "feature": "miss__missingindicator_family",
+            "shap": 0.031173172514091803,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "cat__steel_A",
+            "shap": 0.029327997553381748,
+            "transformed_value": 1.0
+          }
+        ],
+        "imputed_values": {
+          "family": "TN",
+          "steel": "A",
+          "surface-quality": "E",
+          "enamelability": 2.0,
+          "bw/me": "B",
+          "blue/bright/varn/clean": "B",
+          "oil": "Y",
+          "packing": 3.0
+        }
+      },
+      "XGB": {
+        "predicted_class": "2",
+        "probabilities": [
+          0.017912404611706734,
+          0.46305254101753235,
+          0.4099563956260681,
+          0.029034748673439026,
+          0.08004386723041534
+        ],
+        "expected_value": 0.2877885401248932,
+        "output": 0.0728454664349556,
+        "output_scale": "logit",
+        "additivity_error": 1.4156103134155273e-07,
+        "top_contributions": [
+          {
+            "feature": "miss__missingindicator_surface-quality",
+            "shap": 0.9703956246376038,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "cat__steel_R",
+            "shap": -0.6097300052642822,
+            "transformed_value": 0.0
+          },
+          {
+            "feature": "cat__steel_A",
+            "shap": -0.523064911365509,
+            "transformed_value": 1.0
+          },
+          {
+            "feature": "num__len",
+            "shap": -0.3691365122795105,
+            "transformed_value": 0.0
+          },
+          {
+            "feature": "num__thick",
+            "shap": 0.2697015702724457,
+            "transformed_value": 3.2
+          }
+        ],
+        "imputed_values": {
+          "family": "TN",
+          "steel": "A",
+          "surface-quality": "E",
+          "enamelability": 2.0,
+          "bw/me": "B",
+          "blue/bright/varn/clean": "B",
+          "oil": "Y",
+          "packing": 3.0
+        }
+      }
+    }
+  },
+  "trials_per_study": 30,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "repeated_cv_folds": 15
+}
