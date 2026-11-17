@@ -1,0 +1,22 @@
+<template><style>
+@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Regular.ttf')}@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Bold.ttf');font-weight:700}
+#root{position:absolute;inset:0;background:#102f2d;color:#eff7ed;font-family:MLSans,sans-serif;overflow:hidden}
+.chapter{position:absolute;left:194px;top:120px;font-size:32px;color:#a6d1bd;letter-spacing:3px}
+.headline{position:absolute;left:194px;top:235px;width:700px;font-size:68px;line-height:1.13;font-weight:700;letter-spacing:-2px;margin:0}
+.diagram{position:absolute;left:940px;top:210px;width:810px;height:527px}.diagram svg{width:100%;height:100%}
+.bottom{position:absolute;left:194px;top:835px;right:194px;font-size:38px;color:#c8e7d4;border-top:2px solid #467b67;padding-top:28px}
+.count{position:absolute;right:194px;top:120px;font-size:30px;color:#a6d1bd}
+.meter{position:absolute;left:194px;bottom:110px;width:1532px;height:4px;background:#285848}.meter span{display:block;width:100%;height:100%;background:#eea76e;transform-origin:left}
+</style><div id="root" data-composition-id="s15" data-width="1920" data-height="1080" data-hold="Narrated explanation with time to inspect the diagram">
+<div id="s15-chapter" class="chapter">05 / Нейромережа</div><div class="count">16 / 18</div><h1 id="s15-headline" class="headline">Регуляризація —<br>не кнопка «краще»</h1><div id="s15-diagram" class="diagram"><svg viewBox="0 0 1000 650" width="1000" height="650" aria-label="Навчальна схема" style="overflow:visible"><text class="item" x="90" y="80" font-size="42" fill="#c8e7d4" font-family="MLSans">Validation accuracy</text><text class="item" x="90" y="170" font-size="36" fill="#c8e7d4" font-family="MLSans">Baseline</text><rect class="bar" x="410" y="130" width="412.64" height="65" rx="5" fill="#b5ebc9"/><text class="item" x="835" y="175" font-size="36" fill="#c8e7d4" font-family="MLSans">0.860</text><text class="item" x="90" y="320" font-size="36" fill="#c8e7d4" font-family="MLSans">L2 0.01</text><rect class="bar" x="410" y="280" width="394.56" height="65" rx="5" fill="#eea76e"/><text class="item" x="835" y="325" font-size="36" fill="#c8e7d4" font-family="MLSans">0.822</text><text class="item" x="90" y="470" font-size="36" fill="#c8e7d4" font-family="MLSans">Dropout 0.5</text><rect class="bar" x="410" y="430" width="354.88" height="65" rx="5" fill="#eea76e"/><text class="item" x="835" y="475" font-size="36" fill="#c8e7d4" font-family="MLSans">0.739</text><text class="item" x="90" y="625" font-size="36" fill="#c8e7d4" font-family="MLSans">Дані: lab_05/results/results.json</text></svg></div><div id="s15-bottom" class="bottom">13 режимів · спільні умови порівняння</div><div class="meter"><span id="s15-meter"></span></div></div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#s15-headline',{opacity:0.3,y:22},{opacity:1,y:0,duration:.7,ease:'power2.out'},0);
+if(document.querySelector('#s15-diagram .node'))tl.fromTo('#s15-diagram .node',{scale:0.7,opacity:0,transformOrigin:'center'},{scale:1,opacity:1,duration:.6,stagger:.12,ease:'power2.out'},.5);
+if(document.querySelector('#s15-diagram .line'))tl.fromTo('#s15-diagram .line',{strokeDasharray:1600,strokeDashoffset:1600},{strokeDashoffset:0,duration:2.5,stagger:.03,ease:'power1.inOut'},1);
+if(document.querySelector('#s15-diagram .item'))tl.fromTo('#s15-diagram .item',{opacity:0,y:12},{opacity:1,y:0,duration:.6,stagger:.45,ease:'power2.out'},1.4);
+if(document.querySelector('#s15-diagram .bar'))tl.fromTo('#s15-diagram .bar',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:1.6,stagger:.2,ease:'power2.out'},1);
+tl.fromTo('#s15-bottom',{opacity:.25,y:10},{opacity:1,y:0,duration:.7},Math.min(7,22.682/3));
+tl.fromTo('#s15-meter',{scaleX:0},{scaleX:1,duration:22.682,ease:'none'},0);
+window.__timelines=window.__timelines||{};window.__timelines['s15']=tl;
+</script></template>

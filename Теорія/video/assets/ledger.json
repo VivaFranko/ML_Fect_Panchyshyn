@@ -1,0 +1,24 @@
+{
+  "voice": {
+    "provider": "Edge TTS",
+    "voice": "uk-UA-OstapNeural",
+    "cost": "free",
+    "files": "voice_00..17.mp3"
+  },
+  "music": {
+    "provider": "original procedural synthesis",
+    "file": "bed.wav"
+  },
+  "fonts": {
+    "source": "notofonts/noto-fonts",
+    "license": "OFL-1.1",
+    "license_file": "fonts/OFL.txt"
+  },
+  "gsap": {
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"
+  },
+  "diagrams": {
+    "type": "authored SVG",
+    "source": "course formulas and verified results"
+  }
+}

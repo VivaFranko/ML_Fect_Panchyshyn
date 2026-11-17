@@ -1,0 +1,22 @@
+<template><style>
+@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Regular.ttf')}@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Bold.ttf');font-weight:700}
+#root{position:absolute;inset:0;background:#102f2d;color:#eff7ed;font-family:MLSans,sans-serif;overflow:hidden}
+.chapter{position:absolute;left:194px;top:120px;font-size:32px;color:#a6d1bd;letter-spacing:3px}
+.headline{position:absolute;left:194px;top:235px;width:700px;font-size:68px;line-height:1.13;font-weight:700;letter-spacing:-2px;margin:0}
+.diagram{position:absolute;left:940px;top:210px;width:810px;height:527px}.diagram svg{width:100%;height:100%}
+.bottom{position:absolute;left:194px;top:835px;right:194px;font-size:38px;color:#c8e7d4;border-top:2px solid #467b67;padding-top:28px}
+.count{position:absolute;right:194px;top:120px;font-size:30px;color:#a6d1bd}
+.meter{position:absolute;left:194px;bottom:110px;width:1532px;height:4px;background:#285848}.meter span{display:block;width:100%;height:100%;background:#eea76e;transform-origin:left}
+</style><div id="root" data-composition-id="s03" data-width="1920" data-height="1080" data-hold="Narrated explanation with time to inspect the diagram">
+<div id="s03-chapter" class="chapter">01 / Регресія</div><div class="count">04 / 18</div><h1 id="s03-headline" class="headline">Прогноз — це<br>зважена сума</h1><div id="s03-diagram" class="diagram"><svg viewBox="0 0 1000 650" width="1000" height="650" aria-label="Навчальна схема" style="overflow:visible"><path d="M90 530 H920 M90 530 V55" stroke="#57967f" stroke-width="3" fill="none"/><circle class="node" cx="140" cy="470" r="10" fill="#b5ebc9"/><circle class="node" cx="280" cy="415" r="10" fill="#b5ebc9"/><circle class="node" cx="410" cy="345" r="10" fill="#b5ebc9"/><circle class="node" cx="560" cy="260" r="10" fill="#b5ebc9"/><circle class="node" cx="710" cy="210" r="10" fill="#b5ebc9"/><circle class="node" cx="850" cy="135" r="10" fill="#b5ebc9"/><path class="line" d="M110 500 L880 120" fill="none" stroke="#eea76e" stroke-width="7"/><text class="item" x="110" y="625" font-size="36" fill="#c8e7d4" font-family="MLSans">Навчальний приклад · не дані Ames</text></svg></div><div id="s03-bottom" class="bottom">ŷ = Xw + b</div><div class="meter"><span id="s03-meter"></span></div></div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#s03-headline',{opacity:0.3,y:22},{opacity:1,y:0,duration:.7,ease:'power2.out'},0);
+if(document.querySelector('#s03-diagram .node'))tl.fromTo('#s03-diagram .node',{scale:0.7,opacity:0,transformOrigin:'center'},{scale:1,opacity:1,duration:.6,stagger:.12,ease:'power2.out'},.5);
+if(document.querySelector('#s03-diagram .line'))tl.fromTo('#s03-diagram .line',{strokeDasharray:1600,strokeDashoffset:1600},{strokeDashoffset:0,duration:2.5,stagger:.03,ease:'power1.inOut'},1);
+if(document.querySelector('#s03-diagram .item'))tl.fromTo('#s03-diagram .item',{opacity:0,y:12},{opacity:1,y:0,duration:.6,stagger:.45,ease:'power2.out'},1.4);
+if(document.querySelector('#s03-diagram .bar'))tl.fromTo('#s03-diagram .bar',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:1.6,stagger:.2,ease:'power2.out'},1);
+tl.fromTo('#s03-bottom',{opacity:.25,y:10},{opacity:1,y:0,duration:.7},Math.min(7,25.106/3));
+tl.fromTo('#s03-meter',{scaleX:0},{scaleX:1,duration:25.106,ease:'none'},0);
+window.__timelines=window.__timelines||{};window.__timelines['s03']=tl;
+</script></template>

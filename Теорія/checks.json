@@ -1,0 +1,42 @@
+{
+  "lessons": [
+    {
+      "lesson": 0,
+      "passed": true
+    },
+    {
+      "lesson": 1,
+      "passed": true
+    },
+    {
+      "lesson": 2,
+      "passed": true
+    },
+    {
+      "lesson": 3,
+      "passed": true
+    },
+    {
+      "lesson": 4,
+      "passed": true
+    },
+    {
+      "lesson": 5,
+      "passed": true
+    }
+  ],
+  "js_errors": [],
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "checks": [
+    "diagnostic",
+    "all 6 interactives",
+    "24 graded answers",
+    "persist after reload",
+    "export/reset/import progress",
+    "exam mistake filtering",
+    "mobile overflow",
+    "offline file:// lesson",
+    "offline MP4 metadata, 18 chapters, 76 subtitle cues and seeking"
+  ]
+}

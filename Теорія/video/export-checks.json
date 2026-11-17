@@ -1,0 +1,11 @@
+{
+  "duration": "422.866667",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "streams": [
+    "video",
+    "audio"
+  ],
+  "size_bytes": 21971343
+}

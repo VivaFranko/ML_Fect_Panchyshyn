@@ -1,0 +1,22 @@
+<template><style>
+@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Regular.ttf')}@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Bold.ttf');font-weight:700}
+#root{position:absolute;inset:0;background:#102f2d;color:#eff7ed;font-family:MLSans,sans-serif;overflow:hidden}
+.chapter{position:absolute;left:194px;top:120px;font-size:32px;color:#a6d1bd;letter-spacing:3px}
+.headline{position:absolute;left:194px;top:235px;width:700px;font-size:68px;line-height:1.13;font-weight:700;letter-spacing:-2px;margin:0}
+.diagram{position:absolute;left:940px;top:210px;width:810px;height:527px}.diagram svg{width:100%;height:100%}
+.bottom{position:absolute;left:194px;top:835px;right:194px;font-size:38px;color:#c8e7d4;border-top:2px solid #467b67;padding-top:28px}
+.count{position:absolute;right:194px;top:120px;font-size:30px;color:#a6d1bd}
+.meter{position:absolute;left:194px;bottom:110px;width:1532px;height:4px;background:#285848}.meter span{display:block;width:100%;height:100%;background:#eea76e;transform-origin:left}
+</style><div id="root" data-composition-id="s17" data-width="1920" data-height="1080" data-hold="Narrated explanation with time to inspect the diagram">
+<div id="s17-chapter" class="chapter">Закріплення</div><div class="count">18 / 18</div><h1 id="s17-headline" class="headline">Дані → модель<br>→ чесна перевірка</h1><div id="s17-diagram" class="diagram"><svg viewBox="0 0 1000 650" width="1000" height="650" aria-label="Навчальна схема" style="overflow:visible"><path class="line" d="M 150 180 L 380 370" stroke="#428c78" stroke-width="4" fill="none"/><path class="line" d="M 380 370 L 610 180" stroke="#428c78" stroke-width="4" fill="none"/><path class="line" d="M 610 180 L 840 370" stroke="#428c78" stroke-width="4" fill="none"/><circle class="node" cx="150" cy="180" r="48" fill="#b5ebc9"/><text class="item" x="70" y="500" font-size="36" fill="#c8e7d4" font-family="MLSans">Дані</text><circle class="node" cx="380" cy="370" r="48" fill="#eea76e"/><text class="item" x="300" y="500" font-size="36" fill="#c8e7d4" font-family="MLSans">Модель</text><circle class="node" cx="610" cy="180" r="48" fill="#b5ebc9"/><text class="item" x="530" y="500" font-size="36" fill="#c8e7d4" font-family="MLSans">Вибір</text><circle class="node" cx="840" cy="370" r="48" fill="#eea76e"/><text class="item" x="760" y="500" font-size="36" fill="#c8e7d4" font-family="MLSans">Test</text></svg></div><div id="s17-bottom" class="bottom">Одна зрозуміла система</div><div class="meter"><span id="s17-meter"></span></div></div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#s17-headline',{opacity:0.3,y:22},{opacity:1,y:0,duration:.7,ease:'power2.out'},0);
+if(document.querySelector('#s17-diagram .node'))tl.fromTo('#s17-diagram .node',{scale:0.7,opacity:0,transformOrigin:'center'},{scale:1,opacity:1,duration:.6,stagger:.12,ease:'power2.out'},.5);
+if(document.querySelector('#s17-diagram .line'))tl.fromTo('#s17-diagram .line',{strokeDasharray:1600,strokeDashoffset:1600},{strokeDashoffset:0,duration:2.5,stagger:.03,ease:'power1.inOut'},1);
+if(document.querySelector('#s17-diagram .item'))tl.fromTo('#s17-diagram .item',{opacity:0,y:12},{opacity:1,y:0,duration:.6,stagger:.45,ease:'power2.out'},1.4);
+if(document.querySelector('#s17-diagram .bar'))tl.fromTo('#s17-diagram .bar',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:1.6,stagger:.2,ease:'power2.out'},1);
+tl.fromTo('#s17-bottom',{opacity:.25,y:10},{opacity:1,y:0,duration:.7},Math.min(7,22.418/3));
+tl.fromTo('#s17-meter',{scaleX:0},{scaleX:1,duration:22.418,ease:'none'},0);
+window.__timelines=window.__timelines||{};window.__timelines['s17']=tl;
+</script></template>

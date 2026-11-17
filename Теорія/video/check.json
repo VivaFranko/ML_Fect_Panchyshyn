@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 19
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 422.844,
+    "samples": [
+      23.491,
+      70.474,
+      117.457,
+      164.439,
+      211.422,
+      258.405,
+      305.387,
+      352.37,
+      399.353
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      23.491,
+      117.457,
+      211.422,
+      305.387,
+      399.353
+    ],
+    "checked": 40,
+    "passed": 40
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.7060000000000031,
+    "samples": 599
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "audio_clip_silent",
+        "severity": "warning",
+        "message": "assets/bed.wav is silent for the whole part this clip plays (0-422.84 s of the file).",
+        "selector": "#music-bed",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "timeRange": [
+          0,
+          422.844
+        ],
+        "fixHint": "Check the file has sound there, or move data-media-start to where it does."
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "ed3a8c6f-088e-4a8e-9fdd-622131a93e5c",
+    "revision": null,
+    "report": "C:\\Users\\11vov\\Desktop\\Study\\TODO\\courses\\Machine_Learning_Panchyshyn\\Теорія\\video\\.hyperframes\\artifacts\\checks\\ed3a8c6f-088e-4a8e-9fdd-622131a93e5c.json",
+    "attribution": "inputs-changed"
+  },
+  "_meta": {
+    "version": "0.9.61",
+    "latestVersion": "0.9.61",
+    "updateAvailable": false,
+    "checkedAt": "2026-11-17T14:45:51.210Z",
+    "skillsOutdated": 0,
+    "skillsMissing": 0
+  }
+}

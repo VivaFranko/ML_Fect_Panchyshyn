@@ -1,0 +1,22 @@
+<template><style>
+@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Regular.ttf')}@font-face{font-family:MLSans;src:url('assets/fonts/NotoSans-Bold.ttf');font-weight:700}
+#root{position:absolute;inset:0;background:#102f2d;color:#eff7ed;font-family:MLSans,sans-serif;overflow:hidden}
+.chapter{position:absolute;left:194px;top:120px;font-size:32px;color:#a6d1bd;letter-spacing:3px}
+.headline{position:absolute;left:194px;top:235px;width:700px;font-size:68px;line-height:1.13;font-weight:700;letter-spacing:-2px;margin:0}
+.diagram{position:absolute;left:940px;top:210px;width:810px;height:527px}.diagram svg{width:100%;height:100%}
+.bottom{position:absolute;left:194px;top:835px;right:194px;font-size:38px;color:#c8e7d4;border-top:2px solid #467b67;padding-top:28px}
+.count{position:absolute;right:194px;top:120px;font-size:30px;color:#a6d1bd}
+.meter{position:absolute;left:194px;bottom:110px;width:1532px;height:4px;background:#285848}.meter span{display:block;width:100%;height:100%;background:#eea76e;transform-origin:left}
+</style><div id="root" data-composition-id="s07" data-width="1920" data-height="1080" data-hold="Narrated explanation with time to inspect the diagram">
+<div id="s07-chapter" class="chapter">02 / FedAvg</div><div class="count">08 / 18</div><h1 id="s07-headline" class="headline">Клієнти навчають.<br>Сервер агрегує.</h1><div id="s07-diagram" class="diagram"><svg viewBox="0 0 1000 650" width="1000" height="650" aria-label="Навчальна схема" style="overflow:visible"><circle class="node" cx="120" cy="140" r="65" fill="#b5ebc9"/><text class="item" x="105" y="155" font-size="48" fill="#102f2d" font-family="MLSans">1</text><text class="item" x="55" y="255" font-size="36" fill="#c8e7d4" font-family="MLSans">n=100</text><path class="line" d="M120 290 L460 410" stroke="#528e7a" stroke-width="4"/><circle class="node" cx="440" cy="140" r="65" fill="#b5ebc9"/><text class="item" x="425" y="155" font-size="48" fill="#102f2d" font-family="MLSans">3</text><text class="item" x="375" y="255" font-size="36" fill="#c8e7d4" font-family="MLSans">n=300</text><path class="line" d="M440 290 L460 410" stroke="#528e7a" stroke-width="4"/><circle class="node" cx="760" cy="140" r="65" fill="#b5ebc9"/><text class="item" x="745" y="155" font-size="48" fill="#102f2d" font-family="MLSans">5</text><text class="item" x="695" y="255" font-size="36" fill="#c8e7d4" font-family="MLSans">n=600</text><path class="line" d="M760 290 L460 410" stroke="#528e7a" stroke-width="4"/><circle class="node" cx="460" cy="485" r="75" fill="#eea76e"/><text class="item" x="435" y="510" font-size="70" fill="#102f2d" font-family="MLSans">4</text><text class="item" x="250" y="630" font-size="36" fill="#c8e7d4" font-family="MLSans">0.1×1 + 0.3×3 + 0.6×5</text></svg></div><div id="s07-bottom" class="bottom">Навчальний приклад: глобальна вага = 4</div><div class="meter"><span id="s07-meter"></span></div></div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('#s07-headline',{opacity:0.3,y:22},{opacity:1,y:0,duration:.7,ease:'power2.out'},0);
+if(document.querySelector('#s07-diagram .node'))tl.fromTo('#s07-diagram .node',{scale:0.7,opacity:0,transformOrigin:'center'},{scale:1,opacity:1,duration:.6,stagger:.12,ease:'power2.out'},.5);
+if(document.querySelector('#s07-diagram .line'))tl.fromTo('#s07-diagram .line',{strokeDasharray:1600,strokeDashoffset:1600},{strokeDashoffset:0,duration:2.5,stagger:.03,ease:'power1.inOut'},1);
+if(document.querySelector('#s07-diagram .item'))tl.fromTo('#s07-diagram .item',{opacity:0,y:12},{opacity:1,y:0,duration:.6,stagger:.45,ease:'power2.out'},1.4);
+if(document.querySelector('#s07-diagram .bar'))tl.fromTo('#s07-diagram .bar',{scaleX:0,transformOrigin:'left center'},{scaleX:1,duration:1.6,stagger:.2,ease:'power2.out'},1);
+tl.fromTo('#s07-bottom',{opacity:.25,y:10},{opacity:1,y:0,duration:.7},Math.min(7,24.674/3));
+tl.fromTo('#s07-meter',{scaleX:0},{scaleX:1,duration:24.674,ease:'none'},0);
+window.__timelines=window.__timelines||{};window.__timelines['s07']=tl;
+</script></template>
